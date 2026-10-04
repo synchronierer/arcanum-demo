@@ -1,55 +1,48 @@
-# arcanum-demo
+# Arcanum DEMO
 
-Public DEMO (separate test environment) for the Arcanum Learn Monitoring System.
+Öffentliche DEMO (getrennte Testumgebung) des Arcanum-Lernsystems.
 
-DEMO website: https://arcanum-demo.dynv6.net
+**DEMO öffnen:** [https://arcanum-demo.dynv6.net](https://arcanum-demo.dynv6.net)
 
-## Public test access
+## Schnellstart
 
-This repository and the linked access list are public. Anyone may use the
-published DEMO accounts to sign in to the DEMO service. The list contains
-administration, teacher, and student accounts in that order; students are
-sorted by class.
+1. Öffne die DEMO-Adresse in einem aktuellen Browser. Ein Laptop ist für den ersten Rundgang empfehlenswert, aber nicht erforderlich. Tablet und Smartphone werden ebenfalls unterstützt.
+2. Öffne die [öffentliche Zugangsdaten-PDF](./Arcanum_DEMO_Zugangsdaten.pdf). Sie enthält die verwendbaren Konten für Administration, Lehrkräfte und Schüler.
+3. Wähle eine Rolle und melde dich mit dem zugehörigen Konto an.
+4. Folge dem [deutschen DEMO-Handbuch](./docs/handbuch.de.md). Die vollständige englische Fassung steht im [englischen Handbuch](./docs/guide.en.md).
 
-- [DEMO credentials PDF](./Arcanum_DEMO_Zugangsdaten.pdf)
+Die DEMO enthält ausschließlich synthetische Daten (frei erfundene Testdaten). Mehrere Personen verwenden dieselbe Umgebung: Änderungen an gemeinsam sichtbaren Daten können deshalb auch für andere Besuchende sichtbar sein.
 
-The PDF contains 138 usable synthetic DEMO accounts (fictional test
-identities): 3 administration accounts, 12 teacher accounts, and 123 student
-accounts. The four retained `demo.umbau.*` accounts are intentionally omitted
-because their passwords are unavailable; no password was guessed or reset.
-The PDF contains no PROD credentials, private keys, tokens, or configuration
-secrets.
+## Öffentliche Zugangsdaten
 
-## Öffentliche Nutzung / Public use
+Die Zugangsdaten-PDF ist absichtlich öffentlich und nur für diese DEMO bestimmt. Sie enthält 138 verwendbare Konten:
 
-Dieses Repository und die PDF sind absichtlich öffentlich. Alle Besuchenden
-dürfen die aufgeführten DEMO-Konten zum Ausprobieren verwenden. Die
-Zugangsdaten gehören ausschließlich zur getrennten DEMO und nicht zu PROD.
+- 3 Administrationskonten
+- 12 Lehrkraftkonten
+- 123 Schülerkonten
 
-This repository and the PDF are intentionally public. All visitors may use
-the listed DEMO accounts for testing. The credentials belong only to the
-separate DEMO and are not PROD credentials.
+In der DEMO existieren insgesamt 142 Konten. Vier technische `demo.umbau.*`-Konten haben keine verfügbare autorisierte Passwortquelle und werden deshalb nicht als verwendbare Zugänge veröffentlicht. PROD-Zugänge (Live-Zugänge), private Schlüssel, Tokens und Konfigurationsgeheimnisse sind nicht enthalten.
 
-## DEMO zurücksetzen / Reset the DEMO
+## DEMO zurücksetzen
 
-Das Zurücksetzen der gemeinsam genutzten DEMO entfernt Änderungen aller
-Testenden. Der aktuell geprüfte Wiederherstellungsstand enthält die 138
-verwendbaren öffentlichen Konten, die Klassen, die 20 synthetischen Schüler
-in 5a–5d und deren Fachzuordnungen. Nach dem Zurücksetzen meldet man sich mit
-einem Konto aus der PDF erneut an.
+Das Zurücksetzen entfernt gemeinsame Änderungen aller Testenden. Der geprüfte Ausgangsstand enthält die veröffentlichten verwendbaren Konten, die Klassen, 20 synthetische Schüler in 5a–5d und deren Fachzuordnungen.
 
-Resetting the shared DEMO removes changes made by all testers. An explicit
-confirmation is required before the reset. Afterward, sign in again with a
-published DEMO account for the required role.
+Der aktuelle Zurücksetzweg ist ein Betreiberweg (manuell durch die verantwortliche Umgebung) und keine Schaltfläche im Web. Er wurde mit einem harmlosen Testeintrag geprüft. Eine öffentliche Webaktion mit ausdrücklicher Bestätigung ist noch nicht Teil der DEMO und wird hier nicht behauptet.
 
-The current reset mechanism is an operator-controlled restore of the
-integrity-checked DEMO baseline (verified database backup). It was tested with
-a harmless temporary entry, which disappeared after restore; the baseline
-remained at 124 students, 14 teachers, and 4 administrators with 756 known
-foreign-key violations (database references to missing rows), unchanged.
-It is not yet exposed as a web action for public DEMO administrators, so no
-claim is made here that visitors can trigger it from the website. A database
-dump and PROD data are not stored in this repository.
+## Komponenten
 
-The current reset mechanism is not a public self-service action because the
-required confirmation and authorization screen still need to be implemented.
+- Der Arcanum-Kern stellt Anmeldung, Rollen, Schüler-, Lehrkraft- und Administrationsseiten, Curriculum (geplante Lerninhalte), Etappen und Aufgaben bereit.
+- Das Arcanum-Overlay ist eine zusätzliche Anzeigeebene und unterstützt die Schüleransicht.
+- Das Results-Plugin (Ergebnis-Erweiterung) unterstützt Ergebnis- und Lernstandsansichten.
+- Das Anwesenheits-Plugin stellt „Anwesenheit“ und „Attendance verwalten“ bereit.
+- Die Rollen- und Berechtigungsverwaltung steuert Rollen und Zugriffsrechte.
+- SOL-Planer, SOL-Schülerübersichten, Displays/Signage, ScreenTinker und WebUntis-Anbindungen sind nicht Bestandteil dieser öffentlichen DEMO beziehungsweise in dieser Anleitung nicht als funktionsfähig geprüft.
+
+## Weiterführende Dokumentation
+
+- [Geführtes deutsches Handbuch](./docs/handbuch.de.md)
+- [Guided English handbook](./docs/guide.en.md)
+
+---
+
+**English version:** [README.en.md](./README.en.md)
