@@ -14,6 +14,10 @@ Dieses Handbuch beschreibt die am 04.10.2026 geprüfte DEMO. Es verwendet synthe
 3. Melde dich an und prüfe das passende Dashboard.
 4. Nutze zum Verlassen „Abmelden“ oder „Ausloggen“.
 
+![Leere Anmeldeseite](images/01-login.png)
+
+*Die Anmeldeseite zeigt leere Felder; kein Passwort ist im Bild eingetragen.*
+
 Die DEMO ist gemeinsam: Gespeicherte Zuordnungen, Lernstände und Anwesenheit können für andere sichtbar sein. Für den ersten Rundgang nur Seiten, Filter und Vorschauen verwenden.
 
 ## 2. Schülerbereich
@@ -27,6 +31,14 @@ Die DEMO ist gemeinsam: Gespeicherte Zuordnungen, Lernstände und Anwesenheit k�
 5. Prüfe „BESTANDEN“ und „GESPERRT“, falls Inhalte vorhanden sind.
 
 Für 5a–5d gibt es je fünf synthetische Schüler. Sie haben Religion/Ethik als individuelles Fach; in Jahrgang 5 gibt es keine WPF-Zuordnung. Jahrgang 6 behält seine vorhandenen WPF-/Religion-Ethik-Zuordnungen. Flexible Lerninhalte (zusätzliche Lernwege) und individuelle Fächer nur beschreiben, wenn sie im Konto sichtbar sind.
+
+![Schülerdashboard aus Klasse 5a](images/02-schueler-dashboard-5a.png)
+
+*Das Dashboard zeigt Fach, Fortschritt, Münzen und die verfügbaren Etappenbereiche.*
+
+![Schatzkammer eines synthetischen Schülers](images/03-schatzkammer-5a.png)
+
+*Die Schatzkammer zeigt gesammelte Münzen und Erfolge; im Bild sind keine Zugangsdaten sichtbar.*
 
 Die Kacheln „Partner“ und „Gelingensnachweis“ wurden im geprüften Schülerkonto als „inaktiv“ angezeigt. Partnersuche und Bereitschaft für einen Gelingensnachweis sind deshalb kein bestätigtes DEMO-Szenario.
 
@@ -53,6 +65,10 @@ Die Tutoransicht (Ansicht für Klassenbetreuende) ist keine eigene Kontoart, son
 4. Prüfen, dass genau die fünf Schüler dieser Klasse erscheinen.
 
 Alle vier Klassen wurden so geprüft. Die Ansicht ist gemeinsamer Datenzugriff; beim Rundgang nichts speichern.
+
+![Tutoransicht der Klasse 5a](images/04-tutor-5a.png)
+
+*Die geprüfte Tutoransicht zeigt die fünf synthetischen Schüler der Klasse 5a.*
 
 ## 5. Administrationsbereich
 
@@ -143,6 +159,10 @@ Fachliche Rückmeldungen und Beiträge sind über das öffentliche GitHub-Reposi
 - **Gemeinsame Änderung:** keine.
 
 Partnersuche und Bereitschaft für einen Gelingensnachweis sind wegen „inaktiv“ nicht als PASS-Szenarien aufgenommen. Anwesenheitsbestätigung, Import, Archivierung und Rollenänderung sind keine reinen Lesetests.
+
+![Freigegebene zentrale und flexible Etappen](images/05-etappen-mathematik-6a.png)
+
+*Die Etappenübersicht zeigt zentrale und flexible Lernabschnitte mit Münzwerten und „Etappe beginnen“.*
 
 ## 8. Begriffe und Prüfstand
 

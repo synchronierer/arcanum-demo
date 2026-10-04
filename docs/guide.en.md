@@ -14,6 +14,10 @@ This handbook describes the DEMO checked on 4 October 2026. It uses synthetic da
 3. Sign in and check the matching dashboard.
 4. Use “Abmelden” or “Ausloggen” to leave.
 
+![Empty sign-in page](images/01-login.png)
+
+*The sign-in page has empty fields; no password is entered in the image.*
+
 The DEMO is shared. Saved assignments, progress, and attendance can be visible to other visitors. For a first tour, use pages, filters, and previews without saving.
 
 ## 2. Student area
@@ -27,6 +31,14 @@ The DEMO is shared. Saved assignments, progress, and attendance can be visible t
 5. Check “BESTANDEN” and “GESPERRT” if content is available.
 
 Five synthetic students are available in each of 5a–5d. They have Religion/Ethik as an individual subject; no WPF (elective subject selected from a group) assignment exists for grade 5. Grade 6 retains its existing WPF and Religion/Ethik assignments. Describe flexible learning content (additional learning paths) and individual subjects only when visible for the account.
+
+![Student dashboard from grade 5a](images/02-schueler-dashboard-5a.png)
+
+*The dashboard shows a subject, progress, coins, and the available stage areas.*
+
+![Treasure room of a synthetic student](images/03-schatzkammer-5a.png)
+
+*The treasure room shows collected coins and achievements; no credentials are visible.*
 
 The “Partner” and “Gelingensnachweis” tiles appeared as “inaktiv” (inactive) for the checked student account. Partner search and readiness for a proof of mastery are therefore not confirmed DEMO scenarios.
 
@@ -53,6 +65,10 @@ The tutor view (view for class mentors) is not a separate account type. It is an
 4. Check that exactly the five students of that class appear.
 
 All four classes were checked this way. The view accesses shared data; do not save changes during the tour.
+
+![Tutor view for class 5a](images/04-tutor-5a.png)
+
+*The checked tutor view shows the five synthetic students in class 5a.*
 
 ## 5. Administration area
 
@@ -143,6 +159,10 @@ Subject-matter feedback and contributions are welcome through the public GitHub 
 - **Shared change:** none.
 
 Partner search and readiness for a proof of mastery are not included as PASS scenarios because they appeared as “inaktiv”. Attendance confirmation, import, archiving, and role changes are not read-only tests.
+
+![Released central and flexible stages](images/05-etappen-mathematik-6a.png)
+
+*The stage overview shows central and flexible learning sections, coin values, and “Etappe beginnen”.*
 
 ## 8. Terms and verification status
 

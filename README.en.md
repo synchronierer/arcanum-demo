@@ -13,6 +13,20 @@ Public DEMO (separate test environment) for the Arcanum learning system.
 
 The DEMO contains synthetic data (fictional test data only). Several people use the same environment, so changes to shared data may be visible to other visitors.
 
+## DEMO screenshots
+
+![Empty sign-in page of the public DEMO](docs/images/01-login.png)
+
+*Empty sign-in page – credentials are entered only after choosing an account.*
+
+![Student dashboard of a synthetic grade-five student](docs/images/02-schueler-dashboard-5a.png)
+
+*Student dashboard with a subject, progress, and learning-path tiles.*
+
+![Tutor view for class 5a](docs/images/04-tutor-5a.png)
+
+*Tutor view (view for class mentors) showing the five synthetic students in 5a.*
+
 ## Public credentials
 
 The credentials PDF is intentionally public and is meant only for this DEMO. It contains 138 usable accounts: 3 administration accounts, 12 teacher accounts, and 123 student accounts.

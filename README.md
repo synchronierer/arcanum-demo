@@ -13,6 +13,20 @@
 
 Die DEMO enthält ausschließlich synthetische Daten (frei erfundene Testdaten). Mehrere Personen verwenden dieselbe Umgebung: Änderungen an gemeinsam sichtbaren Daten können deshalb auch für andere Besuchende sichtbar sein.
 
+## Einblicke in die DEMO
+
+![Leere Anmeldeseite der öffentlichen DEMO](docs/images/01-login.png)
+
+*Leere Anmeldeseite – Zugangsdaten werden erst nach Auswahl eines Kontos eingegeben.*
+
+![Schülerdashboard eines synthetischen Schülers aus 5a](docs/images/02-schueler-dashboard-5a.png)
+
+*Schülerdashboard mit Fach, Fortschritt und den verfügbaren Lernweg-Kacheln.*
+
+![Tutoransicht der Klasse 5a](docs/images/04-tutor-5a.png)
+
+*Tutoransicht (Ansicht für Klassenbetreuende) mit den fünf synthetischen Schülern aus 5a.*
+
 ## Öffentliche Zugangsdaten
 
 Die Zugangsdaten-PDF ist absichtlich öffentlich und nur für diese DEMO bestimmt. Sie enthält 138 verwendbare Konten:
