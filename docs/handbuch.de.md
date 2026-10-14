@@ -15,9 +15,8 @@ sie verdient haben und welcher aktuelle Lernstand daraus entsteht. Außerdem
 zeigt die DEMO eine Prognose und die gesammelten Erfolge in der Schatzkammer.
 
 Für den ersten Rundgang ist ein Laptop oder Tablet am übersichtlichsten. Die
-Ansichten wurden bei 768 px, 1024 px und 1440 px geprüft. Bei 390 px gibt es
-einen bekannten, akzeptierten Seitenüberlauf; ein vollständig unterstütztes
-Smartphone-Layout wird nicht behauptet.
+Ansichten funktionieren bei 768 px, 1024 px und 1440 px. Auf sehr schmalen
+Smartphone-Displays kann derzeit seitliches Scrollen auftreten.
 
 ## 2. Anmelden
 
@@ -41,9 +40,9 @@ Orientiere dich zunächst an drei Ebenen:
 - **In der Mitte:** Wie ist mein Stand insgesamt und in einem Fach?
 - **Fachkarten:** Was kann ich bearbeiten, was habe ich erreicht und wobei kann ich Hilfe anfordern?
 
-Anton sieht reguläre Fächer und ein individuelles WPF-Fach. Es erscheinen nur
-Fächer, die in PROD aktiv sind und im aktuellen Semester mindestens eine echte
-Curriculum-Stufe besitzen. Deshalb gibt es keine leeren Platzhalterkarten.
+Anton sieht reguläre Fächer und ein individuelles WPF-Fach. In der DEMO
+erscheinen nur aktuell verwendete Fächer, für die auch Etappen vorhanden sind.
+Deshalb gibt es keine leeren Platzhalterkarten.
 
 ## 4. Profilbereich von oben nach unten
 
@@ -60,15 +59,21 @@ akademische Etappen-Niveau Wanderer, Bergsteiger oder Gipfelstürmer.
 
 ### Rang
 
-Der Rang basiert auf den Gesamtmünzen im Schülervergleich. Im Livebild steht:
-**„Du bist nicht in den Top Ten.“** Das ist eine Ranginformation, keine Note.
+Der Rang vergleicht deine Gesamtmünzen mit den aktiven Schülerinnen und
+Schülern deines Jahrgangs im aktuellen Halbjahr. Haben mehrere dieselbe
+Münzzahl, erhalten sie denselben Rang. Im Livebild steht: **„Du bist nicht in
+den Top Ten.“** Das ist eine Ranginformation, keine Note.
 
 ### Avatar
 
 ![Avatar-Auswahl](images/student-tour/03-avatar-selection.png)
 
 Mit **Avatar bearbeiten** öffnet sich die Auswahl. Ein Gesicht anklicken ändert
-das Profilbild. Die Auswahl verändert weder Münzen noch Noten, Etappen oder
+den Avatar sofort; einen zusätzlichen Speichern-Knopf gibt es nicht. Die
+Auswahl wird derzeit nur in diesem Browser für dieses DEMO-Konto gespeichert,
+nicht als serverseitige Profileinstellung. In einem anderen Browser oder auf
+einem anderen Gerät kann deshalb wieder ein anderer oder der Standard-Avatar
+erscheinen. Der Avatar verändert weder Münzen noch Noten, Rang, Etappen oder
 Prognosen. Im Rundgang wurde keine Auswahl gespeichert.
 
 ## 5. Eine reguläre Fachkarte: Mathematik
@@ -83,7 +88,9 @@ Von oben nach unten bedeutet die Karte:
 
 - **Fachname:** Mathematik.
 - **Münzen verdient:** bestätigte Leistung in diesem Fach.
-- **Fortschritt:** Verhältnis der verdienten Münzen zum Lernziel.
+- **Fortschritt:** Der Balken zeigt, wie weit du innerhalb deiner aktuellen
+  Notenstufe auf dem Weg zur nächsten Note bist. Der Text daneben nennt die
+  genaue Zahl der noch fehlenden Münzen.
 - **Aktueller Zwischenstand:** Note aus den bisher verdienten Münzen.
 - **Zeugnisprognose:** mögliche Entwicklung, wenn das bisherige Tempo anhält.
 - **Aktionen:** vier Meldungen, die der Schüler ein- und ausschalten kann.
@@ -194,12 +201,31 @@ bleibt innerhalb des vorgesehenen Maximums.
 
 Die Schatzkammer beantwortet: **Was habe ich insgesamt gesammelt und erreicht?**
 
-- Oben bleiben Profil, Klasse, Graduierung, Gesamtmünzen und Rang sichtbar.
-- **Zurück zum Dashboard** führt zurück; **Abmelden** beendet die Sitzung.
-- Jede Fachtafel zeigt Fachname, bestandene Etappen und verdiente Münzen.
-- Der Balken stellt den Fachstand bis 100 Münzen dar.
-- Aktuelle Note und Abstand zur nächsten Note verbinden Schatzkammer und Dashboard.
-- Das Erfolgslogbuch listet gesammelte Erfolge und ihren Münzbeitrag.
+Oben stehen der Schüler, die Klasse, die Graduierung, die Gesamtmünzen und der
+Rang. **Zurück zum Dashboard** führt zurück; **Abmelden** beendet die Sitzung.
+
+Für jedes Fach zeigt die Schatzkammer:
+
+- den Fachnamen und die Zahl der bestandenen Etappen,
+- die verdienten Münzen,
+- die aktuelle Note und die genaue Zahl der Münzen bis zur nächsten Note,
+- die Münzstapel mit verdienten und noch offenen Plätzen.
+
+Die Münzstapel zeigen den Weg bis 100 Münzen. Bereits verdiente Münzen sind
+gefüllt, noch offene Plätze bleiben frei. Die Markierungen ordnen die Noten ein:
+20 Münzen entsprechen Note 5, 40 Note 4, 60 Note 3, 75 Note 2 und 90 Note 1.
+Wenn der Browser beim Überfahren weitere Informationen zeigt, nennt der Titel
+einer verdienten Münze auch die Etappe, aus der sie stammt.
+
+Das **Erfolgslogbuch** beantwortet die Frage: **Welche bestandenen Etappen
+haben diese Münzen erzeugt?** Es nennt den Namen der Etappe, wenn vorhanden das
+Thema und das Niveau, sowie die verliehene Belohnung. Bei variablen flexiblen
+Etappen kann dort zum Beispiel **„2 von 4 Münzen“** stehen: Die Etappe konnte
+bis zu vier Münzen bringen, tatsächlich wurden aber zwei gutgeschrieben.
+
+Im aktuellen DEMO-Stand kann Niveau 1 im Erfolgslogbuch noch fälschlich als
+**„Starter“** erscheinen; fachlich ist damit **„Wanderer“** gemeint. Die
+fachlichen Niveaus heißen Wanderer, Bergsteiger und Gipfelstürmer.
 
 Hier kann der Schüler keine Note frei eingeben; Änderungen entstehen durch
 bestätigte Etappen im Lernweg.

@@ -13,9 +13,10 @@ not repeated in screenshots or this page.
 The DEMO contains fictional data and is shared. Changes made by other visitors
 may be visible.
 
-The tested views support 768 px, 1024 px, and 1440 px. At 390 px there is a
-known accepted page-overflow limitation. The German guide is currently the
-detailed walkthrough; this English document is not a translation-equivalent.
+The views work at 768 px, 1024 px, and 1440 px. On very narrow smartphone
+displays, horizontal scrolling may currently occur. The German guide is
+currently the detailed walkthrough; this English document is not a
+translation-equivalent.
 
 - [German beginner student tour](docs/handbuch.de.md)
 - [Teacher and administration guide](docs/lehrkraft-und-administration.de.md)

@@ -24,9 +24,9 @@ Die DEMO enthält ausschließlich erfundene Testdaten. Sie ist gemeinsam genutzt
 
 ## Gerätehinweis
 
-Für den ersten Rundgang empfehlen wir Laptop oder Tablet. Die geprüften
-Ansichten funktionieren bei 768 px, 1024 px und 1440 px. Bei 390 px besteht
-eine bekannte, akzeptierte Einschränkung mit möglichem Seitenüberlauf.
+Für den ersten Rundgang empfehlen wir Laptop oder Tablet. Die Ansichten
+funktionieren bei 768 px, 1024 px und 1440 px. Auf sehr schmalen
+Smartphone-Displays kann derzeit seitliches Scrollen auftreten.
 
 ## Weitere Rundgänge
 
