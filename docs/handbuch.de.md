@@ -1,171 +1,249 @@
-# Geführtes Handbuch für die öffentliche Arcanum-DEMO
+# Arcanum zuerst als Schüler verstehen
 
-**DEMO:** [https://arcanum-demo.dynv6.net](https://arcanum-demo.dynv6.net)  
-**Zugangsdaten:** [öffentliche Zugangsdaten-PDF](../Arcanum_DEMO_Zugangsdaten.pdf)
+**DEMO:** [arcanum-demo.dynv6.net](https://arcanum-demo.dynv6.net/login)
+**Öffentliche Konten:** [Arcanum DEMO Zugangsdaten](../Arcanum_DEMO_Zugangsdaten.pdf)
 
-Dieses Handbuch beschreibt die am 04.10.2026 geprüfte DEMO. Es verwendet synthetische Daten (frei erfundene Testdaten). Ein Laptop ist für den ersten Rundgang am übersichtlichsten, aber nicht erforderlich. Alle Abläufe sind auch auf Tablet und Smartphone und ohne Betriebssystem-spezifische Schritte beschrieben.
+Wir schauen uns Arcanum zuerst aus Sicht eines Schülers an. Der Rundgang nutzt
+immer dasselbe synthetische Konto: **Anton Apfel, Klasse 6a**. Der Name ist ein
+frei erfundener DEMO-Account. Die gemeinsame DEMO kann sich verändern.
 
-## 1. Schnellstart
+## 1. Was ist Arcanum?
 
-**Rollen:** Administration verwaltet Schuljahre, Klassen, Fächer und Systemeinstellungen. Lehrkräfte sehen Lerninhalte, Schülerfortschritt, Gelingensnachweise (Nachweise eines erreichten Lernstands), den Tutorenbereich und Anwesenheit. Schüler sehen den eigenen Lernweg, Fächer, Etappen (Abschnitte eines Lernwegs), Aufgaben, Münzen und Noten.
+Arcanum zeigt Lerninhalte in Fächern und Etappen. Schülerinnen und Schüler
+sehen, was sie bearbeiten können, was bereits bestanden ist, wie viele Münzen
+sie verdient haben und welcher aktuelle Lernstand daraus entsteht. Außerdem
+zeigt die DEMO eine Prognose und die gesammelten Erfolge in der Schatzkammer.
 
-1. Öffne die DEMO-Adresse.
-2. Suche in der PDF ein Konto der gewünschten Rolle. Passwörter stehen ausschließlich dort.
-3. Melde dich an und prüfe das passende Dashboard.
-4. Nutze zum Verlassen „Abmelden“ oder „Ausloggen“.
+Für den ersten Rundgang ist ein Laptop oder Tablet am übersichtlichsten. Die
+Ansichten funktionieren bei 768 px, 1024 px und 1440 px. Auf sehr schmalen
+Smartphone-Displays kann derzeit seitliches Scrollen auftreten.
 
-![Leere Anmeldeseite](images/01-login.png)
+## 2. Anmelden
 
-*Die Anmeldeseite zeigt leere Felder; kein Passwort ist im Bild eingetragen.*
+Öffne die DEMO und verwende das Schülerkonto **Anton Apfel (6a)** aus der
+öffentlichen PDF. Der Login-Name ist `Anton.Apfel`. Das Passwort bleibt in der
+PDF und wird hier nicht wiederholt.
 
-Die DEMO ist gemeinsam: Gespeicherte Zuordnungen, Lernstände und Anwesenheit können für andere sichtbar sein. Für den ersten Rundgang nur Seiten, Filter und Vorschauen verwenden.
+![Anmeldeseite](images/student-tour/01-login.png)
 
-## 2. Schülerbereich
+Die Anmeldung braucht nur Login-Name und Passwort. Nach der Anmeldung öffnet
+sich das Schülerdashboard. Die Aufnahme zeigt bewusst keine eingegebenen
+Zugangsdaten.
 
-**Konto:** Schüler. **Start:** Anmeldung öffnet das Schüler-Dashboard.
+## 3. Das Dashboard auf einen Blick
 
-1. Prüfe „Münzen & Noten“ sowie die Kacheln „OFFEN“, „AKTUELL“, „BESTANDEN“ und „GESPERRT“.
-2. Öffne „OFFEN – Etappen – Anzeigen und beginnen“.
-3. Wähle Fach, Thema (inhaltlicher Lernbereich), Etappe und Aufgabe.
-4. Lies die Aufgabe und kehre mit der vorhandenen Navigation zurück.
-5. Prüfe „BESTANDEN“ und „GESPERRT“, falls Inhalte vorhanden sind.
+![Dashboard](images/student-tour/02-dashboard-overview.png)
 
-Für 5a–5d gibt es je fünf synthetische Schüler. Sie haben Religion/Ethik als individuelles Fach; in Jahrgang 5 gibt es keine WPF-Zuordnung. Jahrgang 6 behält seine vorhandenen WPF-/Religion-Ethik-Zuordnungen. Flexible Lerninhalte (zusätzliche Lernwege) und individuelle Fächer nur beschreiben, wenn sie im Konto sichtbar sind.
+Orientiere dich zunächst an drei Ebenen:
 
-![Schülerdashboard aus Klasse 5a](images/02-schueler-dashboard-5a.png)
+- **Oben:** Wer bin ich, zu welcher Klasse gehöre ich und wie viele Münzen habe ich?
+- **In der Mitte:** Wie ist mein Stand insgesamt und in einem Fach?
+- **Fachkarten:** Was kann ich bearbeiten, was habe ich erreicht und wobei kann ich Hilfe anfordern?
 
-*Das Dashboard zeigt Fach, Fortschritt, Münzen und die verfügbaren Etappenbereiche.*
+Anton sieht reguläre Fächer und ein individuelles WPF-Fach. In der DEMO
+erscheinen nur aktuell verwendete Fächer, für die auch Etappen vorhanden sind.
+Deshalb gibt es keine leeren Platzhalterkarten.
 
-![Schatzkammer eines synthetischen Schülers](images/03-schatzkammer-5a.png)
+## 4. Profilbereich von oben nach unten
 
-*Die Schatzkammer zeigt gesammelte Münzen und Erfolge; im Bild sind keine Zugangsdaten sichtbar.*
+### Name und Klasse
 
-Die Kacheln „Partner“ und „Gelingensnachweis“ wurden im geprüften Schülerkonto als „inaktiv“ angezeigt. Partnersuche und Bereitschaft für einen Gelingensnachweis sind deshalb kein bestätigtes DEMO-Szenario.
+Der Name identifiziert das DEMO-Konto. Die Klasse — hier **6a** — bestimmt den
+schulischen Kontext, in dem reguläre Lerninhalte und Zuordnungen gelten.
 
-## 3. Lehrkräftebereich
+### Graduierung
 
-**Konto:** Lehrkraft. **Start:** Anmeldung öffnet das „Teacher Cockpit“.
+Anton zeigt hier die Graduierung **Durchstarter**. Sie beschreibt
+Selbstständigkeit und Verantwortung im Lernweg. Sie ist nicht dasselbe wie das
+akademische Etappen-Niveau Wanderer, Bergsteiger oder Gipfelstürmer.
 
-Die geprüften Menüs sind „Übersicht“, „Themen & Etappen“, „Schülerfortschritt“, „Gelingensnachweise“, „Tutorenbereich“ und „Anwesenheit“.
+### Rang
 
-1. In „Themen & Etappen“ verfügbare Inhalte und freigegebene Etappen ansehen.
-2. In „Schülerfortschritt“ nur angebotene Schüler auswählen.
-3. In „Gelingensnachweise“ die schulweite Tabelle öffnen, filtern und sortieren. Sie zeigt Vorname, Nachname, Klasse, Etappe und Eintrag, soweit passende Einträge existieren.
-4. „Anwesenheit“ für die schulweite Übersicht öffnen.
+Der Rang vergleicht deine Gesamtmünzen mit den aktiven Schülerinnen und
+Schülern deines Jahrgangs im aktuellen Halbjahr. Haben mehrere dieselbe
+Münzzahl, erhalten sie denselben Rang. Im Livebild steht: **„Du bist nicht in
+den Top Ten.“** Das ist eine Ranginformation, keine Note.
 
-Die Übersicht ist zum Prüfen gedacht und zeigt keine Passwörter oder privaten Kontodaten. Bearbeitungsrechte hängen von den vorhandenen Zuordnungen ab.
+### Avatar
 
-## 4. Tutoransicht
+![Avatar-Auswahl](images/student-tour/03-avatar-selection.png)
 
-Die Tutoransicht (Ansicht für Klassenbetreuende) ist keine eigene Kontoart, sondern ein Bereich eines zugeordneten Lehrkraftkontos.
+Mit **Avatar bearbeiten** öffnet sich die Auswahl. Ein Gesicht anklicken ändert
+den Avatar sofort; einen zusätzlichen Speichern-Knopf gibt es nicht. Die
+Auswahl wird derzeit nur in diesem Browser für dieses DEMO-Konto gespeichert,
+nicht als serverseitige Profileinstellung. In einem anderen Browser oder auf
+einem anderen Gerät kann deshalb wieder ein anderer oder der Standard-Avatar
+erscheinen. Der Avatar verändert weder Münzen noch Noten, Rang, Etappen oder
+Prognosen. Im Rundgang wurde keine Auswahl gespeichert.
 
-1. Mit der zugeordneten Lehrkraft anmelden.
-2. „Tutorenbereich“ öffnen.
-3. 5a, 5b, 5c oder 5d auswählen.
-4. Prüfen, dass genau die fünf Schüler dieser Klasse erscheinen.
+## 5. Eine reguläre Fachkarte: Mathematik
 
-Alle vier Klassen wurden so geprüft. Die Ansicht ist gemeinsamer Datenzugriff; beim Rundgang nichts speichern.
+![Mathematik-Fachkarte](images/student-tour/04-mathematik-subject-card.png)
 
-![Tutoransicht der Klasse 5a](images/04-tutor-5a.png)
+Die Mathematik-Karte ist unser konkrete Beispiel. Im geprüften Livebild
+standen dort 72 verdiente Münzen, der aktuelle Zwischenstand war **Note 3 ·
+befriedigend**, und es fehlten 3 Münzen bis Note 2.
 
-*Die geprüfte Tutoransicht zeigt die fünf synthetischen Schüler der Klasse 5a.*
+Von oben nach unten bedeutet die Karte:
 
-## 5. Administrationsbereich
+- **Fachname:** Mathematik.
+- **Münzen verdient:** bestätigte Leistung in diesem Fach.
+- **Fortschritt:** Der Balken zeigt, wie weit du innerhalb deiner aktuellen
+  Notenstufe auf dem Weg zur nächsten Note bist. Der Text daneben nennt die
+  genaue Zahl der noch fehlenden Münzen.
+- **Aktueller Zwischenstand:** Note aus den bisher verdienten Münzen.
+- **Zeugnisprognose:** mögliche Entwicklung, wenn das bisherige Tempo anhält.
+- **Aktionen:** vier Meldungen, die der Schüler ein- und ausschalten kann.
+- **Etappenstatus:** Offen, Aktuell, Bestanden und Gesperrt.
+- **Themen und Etappen:** der fachliche Lernplan.
 
-**Konto:** Administration. **Start:** Anmeldung öffnet das „Admin-Dashboard“.
+### Münzen
 
-Das gemeinsame Menü lautet „Übersicht“, „Schuldaten“, „Schuljahr & Zuordnungen“, „Zentrales Curriculum“, „Anwesenheit“, „Rechte“ und „System“.
+Eine Münze steht für bestätigte akademische Leistung. Das bloße Öffnen oder
+Beginnen einer Etappe verdient noch keine Münze. Zentrale und flexible Etappen
+tragen zum selben Fachkonto bei. Bei einer variablen flexiblen Etappe können
+maximal mögliche und tatsächlich verliehene Münzen unterschiedlich sein, zum
+Beispiel „2 von 4 Münzen“.
 
-### Schuljahr und Zuordnungen
+### Aktueller Zwischenstand
 
-„Schuljahr & Zuordnungen“ zeigt die geprüfte Reihenfolge:
+| Verdiente Münzen | Aktuelle Note |
+|---:|:---|
+| ab 90 | 1 · sehr gut |
+| ab 75 | 2 · gut |
+| ab 60 | 3 · befriedigend |
+| ab 40 | 4 · ausreichend |
+| ab 20 | 5 · mangelhaft |
+| unter 20 | 6 · ungenügend |
 
-1. „1. Schuljahr/Halbjahr“
-2. „2. Jahrgang“
-3. „3. Tutorien“
-4. „4. REGULAR-Matrix“ (verbindliche Fächer je Klasse)
-5. „5. Individuelle Lehrkräfte“
-6. „6. Schülerzuordnung“
+Der aktuelle Zwischenstand ist nicht die Prognose. Anton hatte in Mathematik
+Note 3 bei 72 Münzen; die Live-Prognose lag bei 82 Münzen und Note 2.
 
-HJ1 2026/27 ist das aktive Halbjahr (aktuell gültiger Schulzeitraum). „Ausgewähltes Halbjahr aktivieren“ ändert den gemeinsamen Zustand und ist nur für geplante Tests zu verwenden.
+### Prognose
 
-### Curriculum und Schuldaten
+Die Prognose kombiniert den bisherigen Münz-Zuwachs, die verbleibenden Tage
+bis zum Zeugnis und den daraus errechneten voraussichtlichen Münzstand. Sie ist
+eine Wenn-dann-Rechnung, keine bereits eingetragene Zeugnisnote. Bei Anton
+lautete sie im Livebild: 1,8 Münzen pro Tag, voraussichtlich 82 Münzen und Note
+2. Fachkarten ohne ausreichende Verlaufsdaten können keine sinnvolle Prognose
+anzeigen.
 
-- „Zentrales Curriculum“ zeigt zentrale Themen und Etappen. „Vorschau prüfen“ ist lesend; „Import bestätigen“ verändert Daten.
-- „Schülerverwaltung öffnen“ zeigt Schülerliste und Klassenfilter.
-- „Lehrkräfte verwalten“ zeigt Konten sowie Hinzufügen und Bearbeiten.
-- „Klassenverwaltung öffnen“ zeigt Klassen, Jahrgänge und Archivierung.
-- „Fächerverwaltung öffnen“ zeigt Fächer, Fachart und Zuordnungsart.
+## 6. Die vier Aktionsschaltflächen
 
-Speichern, Aktivieren, Importieren, Archivieren und Löschen verändern gemeinsam sichtbare Daten.
+Diese vier Schaltflächen sind Meldungen und nicht die Etappenstatus darunter.
+Im geprüften Anton-Konto standen alle auf **inaktiv**. Ein Klick speichert die
+Meldung; ein erneuter Klick nimmt sie zurück. Das ist eine gemeinsame DEMO-
+Änderung.
 
-### Anwesenheit, Rechte und System
+- **Hilfe:** Der Schüler bittet für dieses Fach um Hilfe. Aktiv bedeutet, dass die Hilfeanforderung gespeichert ist.
+- **Partner:** Der Schüler schaltet die Partnersuche für das Fach ein oder aus. Gibt es keinen passenden Partner, erscheint kein erfundener Treffer.
+- **Experiment:** Der Schüler fordert Betreuung für ein Experiment an. Das Signal ist keine abgeschlossene Leistung.
+- **Gelingensnachweis:** Der Schüler meldet Bereitschaft für einen Gelingensnachweis. Das ist kein Selbst-„Bestanden“; eine Lehrkraft bearbeitet den Nachweis.
 
-- „Attendance“ ist die schulweite Anwesenheitsübersicht mit Datum, Standort, Status und Klassenfiltern.
-- „Attendance verwalten“ verwaltet Bereiche und QR-Codes (scanbare Zugangscodes).
-- „Berechtigungen und Rollen verwalten“ zeigt `teacher`, `student` und `admin`.
-- „Module verwalten“ zeigt `attendance_plugin`, `results_plugin`, `plugin-loader`, `permission-manager` und `arcanum-overlay`.
+Die sichtbaren Texte „aktiv“ und „inaktiv“ zeigen den gespeicherten Zustand.
 
-Eine Web-Zurücksetzung, SOL-Planer, SOL-Schülerübersichten, Displays/Signage, ScreenTinker und WebUntis-Anbindungen sind nicht als verfügbare DEMO-Funktionen geprüft.
+## 7. Etappenstatus
 
-## 6. Anpassbarkeit
+![Offene Etappen](images/student-tour/05-open-stages.png)
 
-Die DEMO zeigt REGULAR-Fächer (verbindliche Fächer) je Klasse, Religion/Ethik als individuelle Zuordnung, WPF in vorhandenen Jahrgang-6-Daten, zentrale Curricula sowie flexible Lernwege, sofern sie für ein Konto freigegeben sind. Diese Beispiele sind keine Zusage für jede Schulregel.
+Die zweite Gruppe beschreibt den Lernstand einer Etappe:
 
-Fachliche Rückmeldungen und Beiträge sind über das öffentliche GitHub-Repository willkommen. Ein weiterer Support-Kanal ist nicht eingerichtet.
+- **Offen:** Etappen, die noch erreichbar sind. **Anzeigen und beginnen** öffnet die Liste; dort kann eine Etappe begonnen werden.
+- **Aktuell:** Etappen, die der Schüler derzeit bearbeitet. Im gewählten Konto waren es im Livebild 0.
+- **Bestanden:** bestätigte Etappen mit den gutgeschriebenen Münzen.
+- **Gesperrt:** Etappen, die derzeit nicht bearbeitet werden können. Die Freigabe hängt vom Lernweg und den zuständigen schulischen Rollen ab.
 
-## 7. Ausprobier-Szenarien
+![Bestandene Etappen](images/student-tour/06-completed-stages.png)
 
-### A – Zentrale Etappe und Aufgabe
+Eine begonnene Etappe ist noch nicht bestanden. Erst die bestätigte Leistung
+erscheint unter **Bestanden** und zählt als verdiente Münze.
 
-- **Vorbedingung/Rolle:** Schülerkonto mit sichtbarer offener Etappe.
-- **Schritte:** anmelden → „OFFEN“ → „Anzeigen und beginnen“ → Fach → Etappe → Aufgabe.
-- **Ergebnis:** Aufgabe öffnet sich ohne technischen Fehler.
-- **Gemeinsame Änderung:** Öffnen erzeugt keine Münzen, Leistung oder Completion (gespeicherte Aufgabenerledigung).
+## 8. Themen und Etappen
 
-### B – Religion/Ethik in Jahrgang 5
+Unter **Themen und Etappen** zeigt Arcanum den Lernplan: Thema, Etappentitel,
+Niveau, Münzwert und Status. Zentrale Etappen gehören zum gemeinsamen
+Curriculum für Fach und Jahrgang. Flexible Etappen kommen aus dem zugeordneten
+Lernkontext. Beide Arten zählen in derselben Fachkarte.
 
-- **Vorbedingung/Rolle:** Schüler aus 5a–5d.
-- **Schritte:** anmelden → Fächer/Lernweg öffnen → Religion/Ethik prüfen.
-- **Ergebnis:** individuelles Fach sichtbar; kein WPF in diesen Beispielen.
-- **Gemeinsame Änderung:** keine.
+Die Niveaus bedeuten: **Wanderer** (1), **Bergsteiger** (2) und
+**Gipfelstürmer** (3). Das Niveau beschreibt die akademische Anforderung. Die
+Graduierung im Profil beschreibt dagegen Selbstständigkeit und Verantwortung.
 
-### C – Tutoransicht
+## 9. Reguläre und individuelle Fächer
 
-- **Vorbedingung/Rolle:** zugeordnete Lehrkraft.
-- **Schritte:** anmelden → „Tutorenbereich“ → 5a, 5b, 5c oder 5d.
-- **Ergebnis:** genau fünf Schüler.
-- **Gemeinsame Änderung:** keine.
+### Regulär
 
-### D – Gelingensnachweise
+Reguläre Fächer sind die normalen Fächer der Klasse im aktuellen SOL-Kontext.
+Anton sieht zum Beispiel Deutsch, Englisch, Mathematik,
+Gesellschaftslehre und Naturwissenschaften.
 
-- **Vorbedingung/Rolle:** Lehrkraft und passende Einträge.
-- **Schritte:** anmelden → „Gelingensnachweise“ → Tabelle öffnen → filtern/sortieren.
-- **Ergebnis:** relevante Schüler-Etappen ohne private Kontodaten.
-- **Gemeinsame Änderung:** keine.
+### Individuell
 
-### E – Admin-Rundgang
+![Individuelles WPF-Fach](images/student-tour/08-individual-wpf.png)
 
-- **Vorbedingung/Rolle:** Administration.
-- **Schritte:** „Schuljahr & Zuordnungen“, „Zentrales Curriculum“, „Attendance“, „Berechtigungen und Rollen verwalten“ und „Module verwalten“ öffnen; nur lesen und Vorschauen nutzen.
-- **Ergebnis:** Seiten laden und zeigen den aktuellen Zustand.
-- **Gemeinsame Änderung:** keine, solange keine Aktion bestätigt wird.
+Anton hat zusätzlich ein individuelles WPF-Fach. Nicht jeder Schüler hat das
+gleiche individuelle Fach; die Zuordnung gehört zum jeweiligen DEMO-Konto. Nur
+dieses zugeordnete Fach erscheint. „Individuell“ bedeutet nicht leichter oder
+schwerer — Münzen, Etappen und Noten folgen demselben Lernmodell.
 
-### F – Tablet und Smartphone
+## 10. Zentrale und flexible Etappen
 
-- **Vorbedingung/Rolle:** beliebiges mobiles Gerät und beliebige Rolle.
-- **Schritte:** DEMO öffnen → anmelden → Menü öffnen → vertikal scrollen.
-- **Ergebnis:** geprüfte Ansichten bleiben bedienbar; seitliches Scrollen soll nicht nötig sein.
-- **Gemeinsame Änderung:** keine.
+- **Zentral:** gemeinsamer Lernplan für Fach und Jahrgang.
+- **Flexibel:** zusätzlicher Lernweg aus dem zugeordneten Kontext.
 
-Partnersuche und Bereitschaft für einen Gelingensnachweis sind wegen „inaktiv“ nicht als PASS-Szenarien aufgenommen. Anwesenheitsbestätigung, Import, Archivierung und Rollenänderung sind keine reinen Lesetests.
+Beide können zum Münzstand des Faches beitragen. Bei einer variablen flexiblen
+Etappe wird der konkrete Wert erst bei der bestätigten Leistung festgelegt und
+bleibt innerhalb des vorgesehenen Maximums.
 
-![Freigegebene zentrale und flexible Etappen](images/05-etappen-mathematik-6a.png)
+## 11. Schatzkammer
 
-*Die Etappenübersicht zeigt zentrale und flexible Lernabschnitte mit Münzwerten und „Etappe beginnen“.*
+![Schatzkammer](images/student-tour/07-schatzkammer.png)
 
-## 8. Begriffe und Prüfstand
+Die Schatzkammer beantwortet: **Was habe ich insgesamt gesammelt und erreicht?**
 
-Fachbegriffe werden beim ersten Auftreten in einfachen Worten erklärt. Menü- und Schaltflächennamen entsprechen der geprüften DEMO; „Teacher Cockpit“ und „Attendance“ bleiben englische Oberflächenbegriffe.
+Oben stehen der Schüler, die Klasse, die Graduierung, die Gesamtmünzen und der
+Rang. **Zurück zum Dashboard** führt zurück; **Abmelden** beendet die Sitzung.
 
-Geprüft wurden öffentliche URL, Anmeldung für alle drei Rollen, Admin-Unterseiten, Tutoransicht 5a–5d, Lehrkraftübersicht und Schüleroberfläche. Die Prüfung war lesend; keine DEMO-Daten wurden verändert. Die vier technischen Konten und die 138 Zugangsdaten wurden nicht erneut vollständig angemeldet.
+Für jedes Fach zeigt die Schatzkammer:
+
+- den Fachnamen und die Zahl der bestandenen Etappen,
+- die verdienten Münzen,
+- die aktuelle Note und die genaue Zahl der Münzen bis zur nächsten Note,
+- die Münzstapel mit verdienten und noch offenen Plätzen.
+
+Die Münzstapel zeigen den Weg bis 100 Münzen. Bereits verdiente Münzen sind
+gefüllt, noch offene Plätze bleiben frei. Die Markierungen ordnen die Noten ein:
+20 Münzen entsprechen Note 5, 40 Note 4, 60 Note 3, 75 Note 2 und 90 Note 1.
+Wenn der Browser beim Überfahren weitere Informationen zeigt, nennt der Titel
+einer verdienten Münze auch die Etappe, aus der sie stammt.
+
+Das **Erfolgslogbuch** beantwortet die Frage: **Welche bestandenen Etappen
+haben diese Münzen erzeugt?** Es nennt den Namen der Etappe, wenn vorhanden das
+Thema und das Niveau, sowie die verliehene Belohnung. Bei variablen flexiblen
+Etappen kann dort zum Beispiel **„2 von 4 Münzen“** stehen: Die Etappe konnte
+bis zu vier Münzen bringen, tatsächlich wurden aber zwei gutgeschrieben.
+
+Die fachlichen Niveaus heißen **Wanderer** (1), **Bergsteiger** (2) und
+**Gipfelstürmer** (3).
+
+Hier kann der Schüler keine Note frei eingeben; Änderungen entstehen durch
+bestätigte Etappen im Lernweg.
+
+Der Unterschied der Ansichten:
+
+- **Dashboard:** Was bearbeite ich gerade und wie geht es mir jetzt?
+- **Fachkarte:** Was passiert in diesem einen Fach?
+- **Schatzkammer:** Was habe ich insgesamt gesammelt und erreicht?
+
+## 12. Danach: Lehrkraft und Administration
+
+Der Einsteiger-Rundgang endet bewusst beim Schüler. Die getrennte
+[Lehrkraft- und Administrationsanleitung](lehrkraft-und-administration.de.md)
+behandelt danach Teacher Cockpit, Schülerfortschritt, Gelingensnachweise,
+Tutorbereich, Anwesenheit, Schuljahr, Curriculum und Berechtigungen.
+
+## Begriffe und Sicherheit
+
+Alle Konten und Daten der DEMO sind synthetisch. Keine PROD-Zugangsdaten,
+Passwörter, Tokens oder private Daten gehören nicht in Screenshots. Die DEMO ist
+gemeinsam genutzt: Bitte nur lesen, ansehen und Vorschauen verwenden.
