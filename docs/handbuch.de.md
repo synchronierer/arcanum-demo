@@ -223,9 +223,8 @@ Thema und das Niveau, sowie die verliehene Belohnung. Bei variablen flexiblen
 Etappen kann dort zum Beispiel **„2 von 4 Münzen“** stehen: Die Etappe konnte
 bis zu vier Münzen bringen, tatsächlich wurden aber zwei gutgeschrieben.
 
-Im aktuellen DEMO-Stand kann Niveau 1 im Erfolgslogbuch noch fälschlich als
-**„Starter“** erscheinen; fachlich ist damit **„Wanderer“** gemeint. Die
-fachlichen Niveaus heißen Wanderer, Bergsteiger und Gipfelstürmer.
+Die fachlichen Niveaus heißen **Wanderer** (1), **Bergsteiger** (2) und
+**Gipfelstürmer** (3).
 
 Hier kann der Schüler keine Note frei eingeben; Änderungen entstehen durch
 bestätigte Etappen im Lernweg.
@@ -246,5 +245,5 @@ Tutorbereich, Anwesenheit, Schuljahr, Curriculum und Berechtigungen.
 ## Begriffe und Sicherheit
 
 Alle Konten und Daten der DEMO sind synthetisch. Keine PROD-Zugangsdaten,
-Passwörter, Tokens oder privaten Daten gehören in Screenshots. Die DEMO ist
+Passwörter, Tokens oder private Daten gehören nicht in Screenshots. Die DEMO ist
 gemeinsam genutzt: Bitte nur lesen, ansehen und Vorschauen verwenden.
