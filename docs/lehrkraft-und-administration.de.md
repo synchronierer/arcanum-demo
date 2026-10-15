@@ -7,7 +7,7 @@ Die Aufnahmen stammen aus einem echten DEMO-Abnahmelauf. Die DEMO ist gemeinsam 
 ## 1. Sicher starten
 
 1. Öffne die [öffentliche DEMO](https://arcanum-demo.dynv6.net/login).
-2. Verwende das synthetische Lehrkraftkonto **Berta Birne** aus der öffentlichen PDF. Dieses Konto wurde für die Browserabnahme ausgewählt. Der Benutzername steht in der PDF; das Passwort wird hier nicht wiederholt.
+2. Verwende für den vollständigen Rundgang das synthetische Lehrkraftkonto **Dora Dinkel** (`dora.dinkel`) aus der öffentlichen PDF. Es ist der geprüfte Tutor-Einstieg für Klasse 6d. Der Benutzername steht in der PDF; das Passwort wird hier nicht wiederholt.
 3. Melde dich an. Prüfe nach dem Login, dass oben die Navigation des Teacher Cockpits mit **Übersicht**, **Themen & Etappen**, **Schülerfortschritt**, **Tutorenbereich**, **Gelingensnachweise** und **Anwesenheit** erscheint.
 4. Klicke für die Besichtigung nur auf Navigation, Auswahlfelder, **Anzeigen/Aktualisieren** und reine Detailansichten. Verwende keine Schaltflächen mit **Freigeben**, **Sperren**, **Bestätigen**, **Speichern**, **Ändern**, **Zurücknehmen**, **Anlegen** oder **Löschen**.
 
@@ -120,7 +120,7 @@ Ein Gelingensnachweis ist ein pädagogischer Prüfungsschritt. Die Meldung „be
 
 ## 7. Tutorenbereich: die eigene Klasse im Blick behalten
 
-Wähle **Tutorenbereich**. Dieser Bereich ist nur sinnvoll gefüllt, wenn das Lehrkraftkonto einer Tutor-Klasse zugeordnet ist.
+Wähle **Tutorenbereich**. Für diesen Rundgang ist **Dora Dinkel** (`dora.dinkel`) vorgesehen: Das Konto ist der Klasse **6d** als Tutor-Lehrkraft zugeordnet. Beim geprüften Aufruf erscheinen 25 Schülerinnen und Schüler. Dieser Bereich ist nur sinnvoll gefüllt, wenn das Lehrkraftkonto einer Tutor-Klasse zugeordnet ist.
 
 ![Tutorenbereich](images/teacher-tour/05-tutorenbereich.png)
 

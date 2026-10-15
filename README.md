@@ -24,7 +24,7 @@ Die DEMO enthält ausschließlich erfundene Testdaten. Sie ist gemeinsam genutzt
 
 ## Zweiter Einstieg: geführter Lehrkraft-Rundgang
 
-Lehrkräfte finden im [deutschen Lehrkraft-Rundgang](docs/lehrkraft-und-administration.de.md) Schritt für Schritt Teacher Cockpit, Themen & Etappen, Schülerfortschritt, Gelingensnachweise, Tutorenbereich und Anwesenheit.
+Lehrkräfte finden im [deutschen Lehrkraft-Rundgang](docs/lehrkraft-und-administration.de.md) Schritt für Schritt Teacher Cockpit, Themen & Etappen, Schülerfortschritt, Gelingensnachweise, Tutorenbereich und Anwesenheit. Für den Tutor-Rundgang ist in der PDF **Dora Dinkel** (`dora.dinkel`, Tutor-Klasse 6d) empfohlen.
 
 ![Teacher Cockpit](docs/images/teacher-tour/01-teacher-cockpit.png)
 
