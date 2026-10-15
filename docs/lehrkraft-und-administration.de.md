@@ -7,7 +7,7 @@ Die Aufnahmen stammen aus einem echten DEMO-Abnahmelauf. Die DEMO ist gemeinsam 
 ## 1. Sicher starten
 
 1. Öffne die [öffentliche DEMO](https://arcanum-demo.dynv6.net/login).
-2. Verwende das synthetische Lehrkraftkonto **Leni Lehrerin** aus der öffentlichen PDF. Für diesen Rundgang wurde es ausgewählt, weil Lehrkraftkonten mit Unterrichtskontext und Tutorzuordnung benötigt werden. Der Benutzername steht in der PDF; das Passwort wird hier nicht wiederholt.
+2. Verwende das synthetische Lehrkraftkonto **Leni Lehrerin** aus der öffentlichen PDF. Dieses Konto wurde für die Browserabnahme ausgewählt. Der Benutzername steht in der PDF; das Passwort wird hier nicht wiederholt.
 3. Melde dich an. Prüfe nach dem Login, dass oben die Navigation des Teacher Cockpits mit **Übersicht**, **Themen & Etappen**, **Schülerfortschritt**, **Tutorenbereich**, **Gelingensnachweise** und **Anwesenheit** erscheint.
 4. Klicke für die Besichtigung nur auf Navigation, Auswahlfelder, **Anzeigen/Aktualisieren** und reine Detailansichten. Verwende keine Schaltflächen mit **Freigeben**, **Sperren**, **Bestätigen**, **Speichern**, **Ändern**, **Zurücknehmen**, **Anlegen** oder **Löschen**.
 
@@ -53,7 +53,7 @@ Eine Lehrkraft sieht nicht automatisch jede Klasse und jedes Fach der Schule. Di
 
 ## 4. Themen & Etappen: den Lernplan lesen
 
-Wähle oben **Themen & Etappen**. Oben im Inhalt erscheinen die Filter **Fach** und **Unterrichtskontext**. Wähle einen Kontext und klicke auf **Anzeigen/Aktualisieren**. Im geprüften Lehrkraftbereich wird der vollständige Unterrichtskontext verwendet; Klasse und Fach werden daraus abgeleitet.
+Wähle oben **Themen & Etappen**. Oben im Inhalt erscheint der Filter **Unterrichtskontext**. Wähle einen Kontext und klicke auf **Anzeigen/Aktualisieren**. Im geprüften Lehrkraftbereich wird der vollständige Unterrichtskontext verwendet; Klasse und Fach werden daraus abgeleitet.
 
 ![Themen und Etappen](images/teacher-tour/02-themen-etappen.png)
 
@@ -79,11 +79,11 @@ Die sichtbaren Münzen sind ein Planwert beziehungsweise ein möglicher Leistung
 
 ## 5. Schülerfortschritt: Lernwege nachvollziehen
 
-Wähle **Schülerfortschritt** und anschließend einen Unterrichtskontext. Mit **Aktualisieren** lädst du die zugeordneten Schüler und ihre Signale.
+Wähle **Schülerfortschritt** und anschließend einen Unterrichtskontext. Mit **Aktualisieren** lädst du die zugeordneten Schüler und ihre Signale. Wenn einem Kontext aktuell keine Schüler zugeordnet sind, zeigt die DEMO stattdessen ausdrücklich eine leere Ansicht an.
 
 ![Schülerfortschritt](images/teacher-tour/03-schuelerfortschritt.png)
 
-Die Tabelle ordnet die Informationen pro Schüler:
+Wenn Schüler zugeordnet sind, ordnet die Tabelle die Informationen pro Schüler:
 
 - **Details:** Öffnet die Detailansicht des ausgewählten Schülers im Kontext.
 - **In Bearbeitung:** Zeigt, ob eine Etappe aktuell bearbeitet wird.
@@ -92,7 +92,7 @@ Die Tabelle ordnet die Informationen pro Schüler:
 - **Will experimentieren:** Das Signal für Betreuungsbedarf bei einem Experiment.
 - **Bereit für Gelingensnachweis:** Die Meldung des Schülers, dass er sich für einen Nachweis bereit fühlt.
 
-Ein Gedankenstrich bedeutet: Für diesen Kontext liegt aktuell kein entsprechendes Signal vor. **Keine Etappe in Bearbeitung** bedeutet nicht, dass der Schüler nichts gelernt hat; bestandene Etappen und Münzen werden in den passenden Detail- und Fachansichten betrachtet.
+Ein Gedankenstrich bedeutet: Für diesen Kontext liegt aktuell kein entsprechendes Signal vor. **Keine Etappe in Bearbeitung** bedeutet nicht, dass der Schüler nichts gelernt hat; bestandene Etappen und Münzen werden in den passenden Detail- und Fachansichten betrachtet. Die bei der Browserabnahme sichtbare Meldung **Für diesen Unterrichtskontext sind keine Schüler zugeordnet** ist ein gültiger Datenzustand und kein Fehler der Seite.
 
 ### Pädagogische Verwendung
 
@@ -104,7 +104,7 @@ Der Rundgang verändert keine Schülerarbeit. Das Öffnen der Details ist unbede
 
 ## 6. Gelingensnachweise: Bereitschaft einordnen
 
-Wähle **Gelingensnachweise**. Die Seite heißt **Gelingensnachweise und auffällige Etappen** und bietet eine schulweite Übersicht aktiver Schüler, die für einen Gelingensnachweis bereit sind oder bei einer Etappe wiederholt Schwierigkeiten zeigen.
+Wähle **Gelingensnachweise**. Die Seite heißt **Gelingensnachweise und auffällige Etappen** und bietet eine schulweite Übersicht aktiver Schüler, die für einen Gelingensnachweis bereit sind oder bei einer Etappe wiederholt Schwierigkeiten zeigen. Wenn aktuell keine passenden Einträge vorhanden sind, bleibt die Tabelle leer und zeigt dies ausdrücklich an.
 
 ![Gelingensnachweise](images/teacher-tour/04-gelingensnachweise.png)
 
@@ -124,7 +124,7 @@ Wähle **Tutorenbereich**. Dieser Bereich ist nur sinnvoll gefüllt, wenn das Le
 
 ![Tutorenbereich](images/teacher-tour/05-tutorenbereich.png)
 
-Wähle im Feld **Tutor-Klasse** eine zugeordnete Klasse und klicke auf **Übersicht laden**. Die Ansicht zeigt eine Wochenübersicht für Gespräche sowie pro Schüler die fachbezogenen Münzen, Noten und die Graduierung.
+Wähle im Feld **Tutor-Klasse** eine angebotene Klasse und klicke auf **Übersicht laden**. Bei passender Curriculum-Zuordnung zeigt die Ansicht eine Wochenübersicht für Gespräche sowie pro Schüler die fachbezogenen Münzen, Noten und die Graduierung. Passt die Tutor-Klasse nicht zum aktuellen Curriculum-Kontext des Kontos, zeigt die DEMO stattdessen einen entsprechenden Hinweis; das ist kein Grund, Daten zu ändern oder eine andere Rolle zu verwenden.
 
 ### So liest du die Übersicht
 
