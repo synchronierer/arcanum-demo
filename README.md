@@ -22,6 +22,14 @@ Die DEMO enthält ausschließlich erfundene Testdaten. Sie ist gemeinsam genutzt
 
 ![Schatzkammer](docs/images/student-tour/07-schatzkammer.png)
 
+## Zweiter Einstieg: geführter Lehrkraft-Rundgang
+
+Lehrkräfte finden im [deutschen Lehrkraft-Rundgang](docs/lehrkraft-und-administration.de.md) Schritt für Schritt Teacher Cockpit, Themen & Etappen, Schülerfortschritt, Gelingensnachweise, Tutorenbereich und Anwesenheit.
+
+![Teacher Cockpit](docs/images/teacher-tour/01-teacher-cockpit.png)
+
+![Schülerfortschritt für Lehrkräfte](docs/images/teacher-tour/03-schuelerfortschritt.png)
+
 ## Gerätehinweis
 
 Für den ersten Rundgang empfehlen wir Laptop oder Tablet. Die Ansichten
@@ -31,5 +39,6 @@ Smartphone-Displays kann derzeit seitliches Scrollen auftreten.
 ## Weitere Rundgänge
 
 - [Deutscher Schülerrundgang](docs/handbuch.de.md)
-- [Lehrkraft und Administration](docs/lehrkraft-und-administration.de.md)
+- [Geführter Lehrkraft-Rundgang](docs/lehrkraft-und-administration.de.md)
+- [Lehrkraft und Administration](docs/lehrkraft-und-administration.de.md) (Administrationsüberblick)
 - [English documentation](README.en.md)
