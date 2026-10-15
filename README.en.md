@@ -6,7 +6,7 @@ and their current learning progress.
 Open the [public DEMO](https://arcanum-demo.dynv6.net/login), preferably on a
 laptop or tablet, and start with the
 [German beginner student tour](docs/handbuch.de.md). It uses the synthetic
-grade-6 account DemoSchueler1775 Synthese; the public login name is in the
+grade-6 account Anton Apfel; the public login name `anton.apfel` is in the
 [credentials PDF](Arcanum_DEMO_Zugangsdaten.pdf). Passwords are intentionally
 not repeated in screenshots or this page.
 

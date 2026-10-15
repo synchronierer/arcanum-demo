@@ -2,7 +2,7 @@
 
 The current detailed beginner walkthrough is the
 [German student tour](handbuch.de.md). It uses the live synthetic grade-6
-account DemoSchueler1775 Synthese and the real screenshots in `images/student-tour/`.
+account Anton Apfel and the real screenshots in `images/student-tour/`.
 
 The public DEMO is shared and contains fictional data. A laptop or tablet is
 recommended. Views were checked at 768 px, 1024 px, and 1440 px. At 390 px

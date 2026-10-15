@@ -7,7 +7,7 @@ Die Aufnahmen stammen aus einem echten DEMO-Abnahmelauf. Die DEMO ist gemeinsam 
 ## 1. Sicher starten
 
 1. Öffne die [öffentliche DEMO](https://arcanum-demo.dynv6.net/login).
-2. Verwende das synthetische Lehrkraftkonto **DemoLehrkraft1 Synthese** aus der öffentlichen PDF. Dieses Konto wurde für die Browserabnahme ausgewählt. Der Benutzername steht in der PDF; das Passwort wird hier nicht wiederholt.
+2. Verwende das synthetische Lehrkraftkonto **Berta Birne** aus der öffentlichen PDF. Dieses Konto wurde für die Browserabnahme ausgewählt. Der Benutzername steht in der PDF; das Passwort wird hier nicht wiederholt.
 3. Melde dich an. Prüfe nach dem Login, dass oben die Navigation des Teacher Cockpits mit **Übersicht**, **Themen & Etappen**, **Schülerfortschritt**, **Tutorenbereich**, **Gelingensnachweise** und **Anwesenheit** erscheint.
 4. Klicke für die Besichtigung nur auf Navigation, Auswahlfelder, **Anzeigen/Aktualisieren** und reine Detailansichten. Verwende keine Schaltflächen mit **Freigeben**, **Sperren**, **Bestätigen**, **Speichern**, **Ändern**, **Zurücknehmen**, **Anlegen** oder **Löschen**.
 
