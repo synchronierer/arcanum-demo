@@ -3,7 +3,7 @@
 Willkommen bei Arcanum. In diesem kurzen Rundgang sehen wir die DEMO aus der
 Sicht eines Schülers. Die Konten und Lernstände sind synthetisch.
 
-Wir melden uns mit dem veröffentlichten Schülerkonto Anton Apfel aus Klasse 6a
+Wir melden uns mit dem veröffentlichten Schülerkonto DemoSchueler1775 Synthese aus Klasse 6a
 an. Für den ersten Rundgang ist ein Laptop oder Tablet angenehm. Auf sehr
 schmalen Smartphone-Displays kann derzeit seitliches Scrollen auftreten.
 

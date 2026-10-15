@@ -9,8 +9,8 @@ Etappen, Münzen und ihren aktuellen Lernstand.
 mit Laptop oder Tablet und folge dem
 [deutschen Anfängerrundgang](docs/handbuch.de.md).
 
-Für den Rundgang verwenden wir das synthetische Konto **Anton Apfel (Klasse
-6a)**. Der Login-Name steht in der [öffentlichen Zugangsdaten-PDF](Arcanum_DEMO_Zugangsdaten.pdf);
+Für den Rundgang verwenden wir das synthetische Konto **DemoSchueler1775
+Synthese (Klasse 6a)**. Der Login-Name steht in der [öffentlichen Zugangsdaten-PDF](Arcanum_DEMO_Zugangsdaten.pdf);
 das Passwort wird nicht in Screenshots oder dieser Anleitung wiederholt.
 
 Die DEMO enthält ausschließlich erfundene Testdaten. Sie ist gemeinsam genutzt;

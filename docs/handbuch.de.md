@@ -4,7 +4,7 @@
 **Öffentliche Konten:** [Arcanum DEMO Zugangsdaten](../Arcanum_DEMO_Zugangsdaten.pdf)
 
 Wir schauen uns Arcanum zuerst aus Sicht eines Schülers an. Der Rundgang nutzt
-immer dasselbe synthetische Konto: **Anton Apfel, Klasse 6a**. Der Name ist ein
+immer dasselbe synthetische Konto: **DemoSchueler1775 Synthese, Klasse 6a**. Der Name ist ein
 frei erfundener DEMO-Account. Die gemeinsame DEMO kann sich verändern.
 
 ## 1. Was ist Arcanum?
@@ -20,8 +20,8 @@ Smartphone-Displays kann derzeit seitliches Scrollen auftreten.
 
 ## 2. Anmelden
 
-Öffne die DEMO und verwende das Schülerkonto **Anton Apfel (6a)** aus der
-öffentlichen PDF. Der Login-Name ist `Anton.Apfel`. Das Passwort bleibt in der
+Öffne die DEMO und verwende das Schülerkonto **DemoSchueler1775 Synthese (6a)** aus der
+öffentlichen PDF. Der Login-Name ist `demo.student.1775@example.invalid`. Das Passwort bleibt in der
 PDF und wird hier nicht wiederholt.
 
 ![Anmeldeseite](images/student-tour/01-login.png)
@@ -40,7 +40,7 @@ Orientiere dich zunächst an drei Ebenen:
 - **In der Mitte:** Wie ist mein Stand insgesamt und in einem Fach?
 - **Fachkarten:** Was kann ich bearbeiten, was habe ich erreicht und wobei kann ich Hilfe anfordern?
 
-Anton sieht reguläre Fächer und ein individuelles WPF-Fach. In der DEMO
+DemoSchueler1775 sieht reguläre Fächer und ein individuelles WPF-Fach. In der DEMO
 erscheinen nur aktuell verwendete Fächer, für die auch Etappen vorhanden sind.
 Deshalb gibt es keine leeren Platzhalterkarten.
 
@@ -53,7 +53,7 @@ schulischen Kontext, in dem reguläre Lerninhalte und Zuordnungen gelten.
 
 ### Graduierung
 
-Anton zeigt hier die Graduierung **Durchstarter**. Sie beschreibt
+DemoSchueler1775 zeigt hier die Graduierung **Durchstarter**. Sie beschreibt
 Selbstständigkeit und Verantwortung im Lernweg. Sie ist nicht dasselbe wie das
 akademische Etappen-Niveau Wanderer, Bergsteiger oder Gipfelstürmer.
 
@@ -116,14 +116,14 @@ Beispiel „2 von 4 Münzen“.
 | ab 20 | 5 · mangelhaft |
 | unter 20 | 6 · ungenügend |
 
-Der aktuelle Zwischenstand ist nicht die Prognose. Anton hatte in Mathematik
+Der aktuelle Zwischenstand ist nicht die Prognose. DemoSchueler1775 hatte in Mathematik
 Note 3 bei 72 Münzen; die Live-Prognose lag bei 82 Münzen und Note 2.
 
 ### Prognose
 
 Die Prognose kombiniert den bisherigen Münz-Zuwachs, die verbleibenden Tage
 bis zum Zeugnis und den daraus errechneten voraussichtlichen Münzstand. Sie ist
-eine Wenn-dann-Rechnung, keine bereits eingetragene Zeugnisnote. Bei Anton
+eine Wenn-dann-Rechnung, keine bereits eingetragene Zeugnisnote. Bei DemoSchueler1775
 lautete sie im Livebild: 1,8 Münzen pro Tag, voraussichtlich 82 Münzen und Note
 2. Fachkarten ohne ausreichende Verlaufsdaten können keine sinnvolle Prognose
 anzeigen.
@@ -131,7 +131,7 @@ anzeigen.
 ## 6. Die vier Aktionsschaltflächen
 
 Diese vier Schaltflächen sind Meldungen und nicht die Etappenstatus darunter.
-Im geprüften Anton-Konto standen alle auf **inaktiv**. Ein Klick speichert die
+Im geprüften DemoSchueler1775-Konto standen alle auf **inaktiv**. Ein Klick speichert die
 Meldung; ein erneuter Klick nimmt sie zurück. Das ist eine gemeinsame DEMO-
 Änderung.
 
@@ -174,14 +174,14 @@ Graduierung im Profil beschreibt dagegen Selbstständigkeit und Verantwortung.
 ### Regulär
 
 Reguläre Fächer sind die normalen Fächer der Klasse im aktuellen SOL-Kontext.
-Anton sieht zum Beispiel Deutsch, Englisch, Mathematik,
+DemoSchueler1775 sieht zum Beispiel Deutsch, Englisch, Mathematik,
 Gesellschaftslehre und Naturwissenschaften.
 
 ### Individuell
 
 ![Individuelles WPF-Fach](images/student-tour/08-individual-wpf.png)
 
-Anton hat zusätzlich ein individuelles WPF-Fach. Nicht jeder Schüler hat das
+DemoSchueler1775 hat zusätzlich ein individuelles WPF-Fach. Nicht jeder Schüler hat das
 gleiche individuelle Fach; die Zuordnung gehört zum jeweiligen DEMO-Konto. Nur
 dieses zugeordnete Fach erscheint. „Individuell“ bedeutet nicht leichter oder
 schwerer — Münzen, Etappen und Noten folgen demselben Lernmodell.
