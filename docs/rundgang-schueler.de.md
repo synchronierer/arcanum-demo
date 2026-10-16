@@ -65,6 +65,20 @@ bestätigten Etappen erscheint ein Hinweis statt einer Zahl.
 „Noch kein Thema zugewiesen“ ist ein echter Kontozustand und darf nicht durch
 eine erfundene Etappe ersetzt werden.
 
+### Gefülltes Vergleichsbeispiel: Berta Banane
+
+Für die folgenden Beispiele mit verdienten Leistungen melde dich mit
+**Berta Banane** (`berta.banane`) aus derselben PDF an. Dieses Konto ist ein
+anderer, ausdrücklich veröffentlichter Schülerzugang. Es zeigt im geprüften
+Livezustand 7 Gesamtmünzen, Rang 1/97, Klasse 6d und die Graduierung Starter.
+
+![Berta Bananes gefülltes Schülerdashboard](images/rundgaenge/schueler/03-berta-dashboard-live.png)
+
+Die Karten zeigen Mathematik mit 3 Münzen und einer bestandenen Etappe sowie
+das Wahlpflichtfach mit 4 Münzen und einer bestandenen Etappe. Damit ist der
+Unterschied zwischen einem leeren Lernstand (Anton) und tatsächlich
+verdienten Leistungen (Berta) sichtbar belegt.
+
 ## 4. Avatar
 
 Klicke **Avatar bearbeiten**. Es öffnet sich ein Auswahlfenster mit den
@@ -107,6 +121,19 @@ Beispielzustand dieses Kontos und kein Beweis, dass es in der DEMO keine
 anderen Status gibt. Für dieses Konto waren keine anderen Statusarten
 verfügbar; es werden deshalb keine falschen Beispiele verwendet.
 
+Berta zeigt dagegen in Mathematik und WPF jeweils **1 bestandene Etappe**.
+Die Kacheln zeigen zugleich 0 aktuell und 0 gesperrt. Eine gefüllte Kachel ist
+damit ein echter Nachweis für den jeweils sichtbaren Zustand, aber kein Beleg,
+dass jedes Konto dieselben Etappen besitzt.
+
+![Mathematik-Karte mit Zwischenstand, 3 verdienten Münzen und bestandener Etappe](images/rundgaenge/schueler/04-berta-mathematik-live.png)
+
+In Bertas Mathematik-Karte steht der aktuelle Zwischenstand „Note 6 ·
+ungenügend“ und „17 Münzen bis Note 5“. Das ist eine aus bisher verdienten
+Münzen berechnete Momentaufnahme. Eine Zeugnisprognose wird dort ausdrücklich
+noch nicht berechnet. Die Anzeige „Sammle noch ein paar bestätigte Etappen …“
+ist deshalb nicht als Prognose zu lesen.
+
 **Anzeigen und beginnen** öffnet die offene Liste. Das Beginnen wurde nicht
 ausgeführt. Themen und Etappen zeigen den Lernplan: zentrale Etappen kommen
 aus dem gemeinsamen Curriculum, flexible aus dem Unterrichtskontext. Erst eine
@@ -119,6 +146,13 @@ Reguläre Fächer gehören zum Lernplan der Klasse. Das individuelle WPF
 automatisch leichter oder schwerer; Etappen, Münzen, Noten und Prognosen
 folgen derselben Logik. Andere Schüler können ein anderes WPF oder keines haben.
 
+![WPF-Karte mit 4 verdienten Münzen und bestandener Etappe](images/rundgaenge/schueler/05-berta-wpf-live.png)
+
+Bei Berta sind 4 Münzen im WPF sichtbar. Das bestätigt die individuelle
+Fachzuordnung und einen abgeschlossenen WPF-Lernstand. Die Karten zeigen
+jeweils „Noch kein Thema zugewiesen“; die zugehörige abgeschlossene Leistung
+ist dennoch im Erfolgslogbuch der Schatzkammer sichtbar.
+
 ## 8. Schatzkammer und Verlauf
 
 Der Link oben führt zu **Schatzkammer / Ergebnisse** (`/results`). Dort sollen
@@ -127,11 +161,24 @@ das Erfolgslogbuch erscheinen. Das Logbuch ordnet Münzen bestätigten Etappen
 zu; variable Leistungen können ihren tatsächlichen Wert gegenüber dem Maximum
 zeigen.
 
-Im Abnahmelauf blieb `/results` nach 1 und 5 Sekunden bei „Schülerprofil wird
-geladen …“ und zeigte „Die Schatzkammer konnte gerade nicht geladen werden.“
-Das ist als **FAILED** dokumentiert, nicht als erfolgreiche Funktion. Es gibt
-keinen Screenshot, der eine gefüllte Schatzkammer behauptet. Rückweg und
-**Abmelden** sind sichtbar.
+Mit Berta Banane lädt `/results` vollständig. Die Mathematik-Karte zeigt
+3/100 Münzen und im Erfolgslogbuch den Eintrag „Mündlich … 3 von 10 Münzen“.
+Das ist der nachweisbare Unterschied zwischen einem variablen Münzmaximum von
+10 und dem tatsächlich gutgeschriebenen Wert 3. Im WPF-Logbuch steht eine
+konkrete abgeschlossene Etappe „6 Öko 1.1.1 Ökosysteme am Beispiel Wald“ mit
+`+4` und dem Thema „terrestrisches Ökosystem“.
+
+![Bertas gefüllte Schatzkammer mit Mathematik- und WPF-Erfolg](images/rundgaenge/schueler/06-berta-schatzkammer-live.png)
+
+Mit Anton Apfel und Dora Kakao wurde dieselbe Route unabhängig wiederholt. Bei
+beiden scheitert eine Fortschrittsantwort reproduzierbar mit HTTP 409 und dem
+Fehler `context_conflict`; die Oberfläche bleibt bei der Lade-/Fehlermeldung.
+Das ist kein allgemeines Warteproblem: Berta und weitere geprüfte Konten
+erhielten HTTP 200 und eine gefüllte Ansicht. Der Befund bleibt für die
+betroffenen Konten **FAILED**. Eine berechnete Zeugnisprognose war in keinem
+der geprüften öffentlichen Schülerkonten sichtbar; dafür wird kein Bild als
+Beleg ausgegeben. Ein späterer Source-Fix gehört nach `arcanum-dev`, nicht in
+diese Dokumentationsänderung.
 
 ## 9. Abmelden, Fehler und Grenzen
 

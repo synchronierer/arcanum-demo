@@ -11,10 +11,10 @@ Beschriftung, Zustand, Ausschnitt und Überlauf verglichen.
 
 | Rolle | PNGs | Browserprüfung | PNG-Sichtprüfung | Ersetzt | Nicht akzeptiert |
 |---|---:|---|---|---:|---:|
-| Schüler | 3 | PASS | PASS | 0 | 0 |
-| Lehrkraft | 6 | PASS | PASS | 0 | 0 |
-| Administration | 8 | PASS | PASS | 0 | 0 |
-| Gesamt | 17 | PASS | PASS | 0 | 0 |
+| Schüler | 7 | PASS für gezeigte Zustände; `/results`-Fehler getrennt dokumentiert | PASS | 0 | 0 |
+| Lehrkraft | 8 | PASS für Cockpit/Fortschritt/Detail; Verlauf FAILED | PASS | 0 | 0 |
+| Administration | 10 | PASS für Lesesichten; Rollen-/Moduldetails NI-SA | PASS | 0 | 0 |
+| Gesamt | 25 | nicht pauschal PASS: einzelne Funktionen FAILED/NI-SA | PASS | 0 | 0 |
 
 Die Bilder zeigen ausschließlich veröffentlichte synthetische DEMO-Namen,
 keine ausgefüllten Passwortfelder, Sitzungs- oder Zugriffstokens, echten
@@ -33,6 +33,13 @@ Anton-Apfel-Livezustand beschrieben, nicht als allgemeiner Systemzustand.
   Etappenstatus sichtbar.
 - `02-avatar-dialog-live.png`: Anton Apfel, geöffneter Avatar-Dialog;
   Auswahlfunktion sichtbar, keine Auswahl gespeichert.
+- `03-berta-dashboard-live.png`: Berta Banane, 7 Gesamtmünzen, Rang 1/97,
+  gefüllte Mathematik- und WPF-Karten.
+- `04-berta-mathematik-live.png`: Mathematik, 3 Münzen, Note 6,
+  bestandene Etappe und 17 Münzen bis Note 5.
+- `05-berta-wpf-live.png`: WPF, 4 Münzen und eine bestandene Etappe.
+- `06-berta-schatzkammer-live.png`: Ergebnisse mit variablem Eintrag 3 von
+  10 und WPF-Erfolg +4.
 
 ### Lehrkraft
 
@@ -47,6 +54,11 @@ Anton-Apfel-Livezustand beschrieben, nicht als allgemeiner Systemzustand.
   Noten.
 - `06-anwesenheit-live.png`: Anwesenheitsfilter und Momentaufnahme mit 222
   Schülern.
+- `07-schueler-detail-live.png`: tatsächlich geöffnete Detailansicht für
+  Anton Banane mit Etappen, Bewertungen und Verdienstspalten.
+- `08-tutorverlauf-live.png`: Tutorübersicht mit Verlaufsschaltflächen; der
+  Klick auf Verlauf öffnete im Zweitlauf keine separate Ansicht und wird nicht
+  als Verlaufsscreenshot ausgegeben.
 
 ### Administration
 
@@ -58,6 +70,10 @@ Anton-Apfel-Livezustand beschrieben, nicht als allgemeiner Systemzustand.
 - `06-attendance-admin-live.png`: QR-Bereiche mit Status und Aktionen.
 - `07-rechte-live.png`: Rollenübersicht und Rollenformular.
 - `08-module-live.png`: installierte Module.
+- `09-schuljahr-zuordnungen-live.png`: aktives Halbjahr, Tutor- und
+  Fachlehrkraftzuordnungen.
+- `10-curriculum-importvorschau-live.png`: Curriculumfilter, Münzbudget,
+  Suchfeld und sichere Importvorschau ohne Datei.
 
 Nicht mutierende oder gefährliche Aktionen wurden nicht als erfolgreich
 abgebildet. Das betrifft insbesondere Import bestätigen, Semesterwechsel,

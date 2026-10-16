@@ -12,6 +12,10 @@ Für den Rundgang verwenden wir das synthetische Konto **Anton Apfel
 (Klasse 6a)**. Der Login-Name `anton.apfel` steht in der [öffentlichen Zugangsdaten-PDF](Arcanum_DEMO_Zugangsdaten.pdf);
 das Passwort wird nicht in Screenshots oder dieser Anleitung wiederholt.
 
+Für gefüllte Münz-, WPF- und Schatzkammerbeispiele nennt der Schülerrundgang
+zusätzlich ausdrücklich das veröffentlichte Konto **Berta Banane**
+(`berta.banane`).
+
 Die DEMO enthält ausschließlich erfundene Testdaten. Sie ist gemeinsam genutzt;
 Änderungen anderer Personen können sichtbar sein.
 

@@ -63,8 +63,15 @@ Banane, Berta Banane und Anton Dattel. Spalten:
 
 Ein Gedankenstrich bedeutet kein Signal in diesem Kontext. Die Tabelle ist
 Gesprächs- und Planungshilfe, keine Rangliste. Der sichtbare Button **Details**
-ist für den individuellen Fall vorgesehen; das Öffnen wurde in dieser
-Abnahme wegen eines hängenden Browser-Wartepfads nicht als PASS gewertet.
+ist für den individuellen Fall vorgesehen. Er wurde mit einem kurzen,
+nicht-mutierenden Klick tatsächlich geöffnet:
+
+![Individuelle Schülerdetails für Anton Banane](images/rundgaenge/lehrkraft/07-schueler-detail-live.png)
+
+Die Detailansicht zeigt Themen, Etappen, Typ (zentral/flexibel), Münzen,
+Bewertung, Verdienst und „In Bearbeitung“. Die vorhandenen Bewertungen stehen
+auf „Noch nicht bewertet“; die Auswahlfelder wurden nicht verändert. Das Bild
+belegt daher die Detailansicht, nicht eine neue Bewertung.
 Bewertungs- und Bestätigungswege werden nicht ausgeführt.
 
 ## 5. Gelingensnachweise und Fehlversuche
@@ -91,10 +98,20 @@ Fachmünzen und daraus abgeleitete Noten für Deutsch, Englisch,
 Gesellschaftslehre, Mathematik, Naturwissenschaften und verfügbare WPF-
 Spalten.
 
-**Verlauf anzeigen** öffnet die zeitliche Lernansicht. **ändern** bearbeitet
-die Graduierung und wird nicht verwendet. **Drucken / als PDF speichern** ist
-eine Ausgabe, kann aber Schülerdaten enthalten und darf nur sicher gespeichert
-oder geteilt werden.
+**Verlauf anzeigen** ist als Bedienelement vorhanden. Der unabhängige Klick
+auf den ersten Eintrag markierte die Zeile, öffnete in diesem Lauf aber keine
+separate Verlaufsansicht und erzeugte keine HTTP-Fehlermeldung. Das Verhalten
+ist daher **FAILED/klärungsbedürftig** und wird nicht als vorhandener Verlauf
+behauptet. **ändern** bearbeitet die Graduierung und wird nicht verwendet.
+**Drucken / als PDF speichern** ist eine Ausgabe, kann aber Schülerdaten
+enthalten und darf nur sicher gespeichert oder geteilt werden.
+
+![Tutorübersicht mit Fachmünzen, Noten und Verlaufsschaltflächen](images/rundgaenge/lehrkraft/08-tutorverlauf-live.png)
+
+Die gefüllten Zeilen belegen Fachstände: Berta Banane steht im Mathematikfach
+mit 3 Münzen und im WPF Ökologie mit 4 Münzen. Diese Werte stimmen mit Bertas
+Schüler-Schatzkammer überein; sie sind ein lesender Abgleich, keine neue
+Bewertung.
 
 Eine Fachlehrkraft sieht ihren Fachkontext und die zugeordneten Schüler. Die
 Tutor-Lehrkraft bündelt zusätzlich die eigene Klasse über mehrere Fächer und

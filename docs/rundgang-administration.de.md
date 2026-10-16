@@ -33,6 +33,10 @@ Fach, Status aktive/archivierte Schüler, Klasse und Suche. Die Tabelle zeigt
 Nachname, Vorname, Klasse, Abschlussstufe sowie **Bearbeiten**,
 **Archivieren** und **Passwort neu setzen**.
 
+Die Zweitabnahme bestätigte diese Schaltflächen für die Datensätze. Sie wurden
+nicht ausgelöst oder gespeichert; Sichtbarkeit ist kein Nachweis einer
+erfolgreichen Änderung.
+
 Exportdateien können Lerninformationen enthalten und werden nicht erzeugt.
 Archivieren, Passwortsetzen und Bearbeiten benötigen Adminrechte und können
 dauerhafte oder sicherheitsrelevante Folgen haben.
@@ -65,16 +69,26 @@ Fachtyp (regulär, Religion/Ethik oder WPF), Aktivität für Klasse 5 und Klasse
 WPF-Fächer nur für Klasse 6. Einzelne Religion/Ethik-Fächer waren inaktiv oder
 nicht verfügbar.
 
+Die Aktionsmenüs **Name ändern**, **Archivieren** und **Löschen** waren sichtbar,
+wurden aber wegen ihrer dauerhaften Wirkung nicht ausgeführt.
+
 **Schuljahr & Zuordnungen** enthält aktives Halbjahr, Tutor:innen je Klasse,
 Fachlehrkräfte je Jahrgang/Klasse und individuelle Fächer/WPF. Auswahl ohne
 Speichern ist lesend; Autosave oder Speichern wurde nicht ausgelöst.
 
 ## 4. Schuljahr, Halbjahre und Kursgruppen
 
+![Schuljahr, Halbjahr, Tutor- und Fachlehrkraftzuordnungen](images/rundgaenge/administration/09-schuljahr-zuordnungen-live.png)
+
+Öffne **Schuljahr & Zuordnungen** und lasse das aktive Halbjahr ausgewählt.
 Die Ansicht zeigt 2026/27 HJ1 als **AKTIV**, **+ Nächstes Halbjahr anlegen**,
 Tutor 1 und Tutor 2 je Klasse, Jahrgang 5/6, Fachlehrkraftmatrizen und
 individuelle Zuordnungen. Daraus ergeben sich Unterrichtskontexte und
 Kursgruppen/Mitgliedschaften.
+
+Die geprüften Auswahlfelder für Halbjahr und Jahrgang wurden nur gelesen.
+Die abgebildeten Zuordnungen sind ein Zustandsnachweis, keine Aufforderung,
+Lehrkräfte auf der DEMO neu zuzuordnen.
 
 Ein Halbjahreswechsel verändert den zeitlichen Geltungsbereich von Klassen,
 Fächern, Kontexten, Curriculum und Lernständen. Er benötigt Adminrechte,
@@ -82,9 +96,17 @@ Vorprüfung und eine Sicherung und wird nicht ausgeführt.
 
 ## 5. Zentrales Curriculum und Import
 
+![Zentrales Curriculum mit Filtern und Importvorschau](images/rundgaenge/administration/10-curriculum-importvorschau-live.png)
+
 **Zentrales Curriculum** zeigt Themen und Etappen mit Fach-/Jahrgangsbezug,
 Münzwerten und **Neues Thema hinzufügen**. **Zentrales Curriculum
 importieren** bietet **Vorschau prüfen** und **Import bestätigen**.
+
+Die Abnahme prüfte die Filter Fach, Halbjahr und Jahrgang, die Suchzeile für
+Themen/Etappennamen sowie die deaktivierte Importbestätigung ohne Datei. Die
+Tabelle kann dadurch leer sein, obwohl das Modul vorhanden ist; eine leere
+Tabelle ist kein Beleg für fehlende Curriculumdaten. Ein neu angelegtes Thema
+oder eine Etappe wurde nicht gespeichert.
 
 Die Vorschau prüft lesend, welche Inhalte neu, geändert oder bereits vorhanden
 sind. Erst **Import bestätigen** schreibt in das aktive Halbjahr. Ein echter
@@ -112,12 +134,18 @@ Standort, Status, Klasse und Suche für die schulweite Übersicht.
 Rollen hinzufügen mit Name und Beschreibung. Eine Rollenänderung kann Zugriff
 auf Lern- und Verwaltungsdaten erweitern; es wurde nichts gespeichert.
 
+Die Rollenliste wurde geöffnet; bestehende Rollendetails waren in diesem
+Livezustand nicht als separate lesende Detailansicht erreichbar. Das ist
+**NICHT_SICHER_AUSFÜHRBAR**, nicht PASS für eine behauptete Rechte-Detailseite.
+
 ![Modulübersicht](images/rundgaenge/administration/08-module-live.png)
 
 `/plugins` listet **attendance_plugin**, **results_plugin**, **plugin-loader**,
-**permission-manager** und **arcanum-overlay**. Status und Details sind
-lesend. Installieren, Deaktivieren, Konfiguration speichern und Neustarts sind
-nicht Teil der Prüfung.
+**permission-manager** und **arcanum-overlay**. Die Ansicht zeigte die Module
+zunächst zusammengeklappt; eine belastbare Status-/Detailansicht wurde in
+dieser Abnahme nicht als separate Darstellung nachgewiesen. Installieren,
+Deaktivieren, Konfiguration speichern und Neustarts sind nicht Teil der
+Prüfung. Dieser Teil bleibt **NICHT_SICHER_AUSFÜHRBAR**.
 
 ## 8. Ergebnisse, Filter und kritische Aktionen
 
