@@ -62,8 +62,10 @@ Banane, Berta Banane und Anton Dattel. Spalten:
   für Gelingensnachweis** zeigen die Schüler-Signale.
 
 Ein Gedankenstrich bedeutet kein Signal in diesem Kontext. Die Tabelle ist
-Gesprächs- und Planungshilfe, keine Rangliste. Details sind lesend; Bewertungs-
-und Bestätigungswege werden nicht ausgeführt.
+Gesprächs- und Planungshilfe, keine Rangliste. Der sichtbare Button **Details**
+ist für den individuellen Fall vorgesehen; das Öffnen wurde in dieser
+Abnahme wegen eines hängenden Browser-Wartepfads nicht als PASS gewertet.
+Bewertungs- und Bestätigungswege werden nicht ausgeführt.
 
 ## 5. Gelingensnachweise und Fehlversuche
 

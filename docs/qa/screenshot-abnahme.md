@@ -63,3 +63,8 @@ Nicht mutierende oder gefährliche Aktionen wurden nicht als erfolgreich
 abgebildet. Das betrifft insbesondere Import bestätigen, Semesterwechsel,
 Freigeben/Sperren, Löschen, Archivieren, Passwortwechsel, Rechteänderung und
 echte Exporte.
+
+Die sichtbaren Detail-/Bearbeiten-/QR-Dialogschaltflächen wurden nicht als
+PASS für ihre Folgeansicht gewertet, wenn der Browserpfad nicht sauber ohne
+Wartefehler abgeschlossen werden konnte. Es gibt dafür keinen irreführenden
+Erfolgsscreenshot.

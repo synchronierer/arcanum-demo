@@ -39,7 +39,7 @@ mutiert.
 | Schüler | Logout | Abmelden | PASS | Textinventar |
 | Lehrkraft | `/dashboard#overview` | Halbjahr, Lerngruppen, Fächer, Kontexte | PASS | `01-cockpit-live.png` |
 | Lehrkraft | `#curriculum` | Kontextwahl, Budgets, zentrale/flexible Themen, Status, variable Münzen | PASS | `02-themen-etappen-live.png` |
-| Lehrkraft | `#student-progress` | gefüllte Schülerliste, Details, Lernstand und Signale | PASS | `03-schuelerfortschritt-live.png` |
+| Lehrkraft | `#student-progress` | gefüllte Schülerliste, sichtbarer Details-Button, Lernstand und Signale | PASS/NI-SA | `03-schuelerfortschritt-live.png`; Detaildialog nicht als PASS gewertet |
 | Lehrkraft | `#schoolwide-stage-overview` | GN-Bereitschaften, Fehlversuche, fünf Lesefilter | PASS | `04-gelingensnachweise-live.png` |
 | Lehrkraft | `#tutor-area` | Klasse 6d, 25 Schüler, Fächer, Münzen, Noten, Verlauf, PDF | PASS | `05-tutorbereich-live.png` |
 | Lehrkraft | `/attendance` | Datum, Zeitbezug, Standort, Status, Klasse, Suche, 222 Schüler | PASS | `06-anwesenheit-live.png` |
@@ -55,6 +55,7 @@ mutiert.
 | Admin | `/attendance` | schulweite Filter und Liste | PASS | Inventar |
 | Admin | `/manage_permissions` | teacher/student/admin, Rollenformular | PASS | `07-rechte-live.png` |
 | Admin | `/plugins` | 5 installierte Module | PASS | `08-module-live.png` |
+| Admin | Dialoge/Formulare | sichtbare Bearbeiten-/QR-/Rollen-/Importelemente; keine Speicherung | NI-SA | keine Mutation ausgeführt |
 | Admin | kritische Aktionen | Semesterwechsel, Import, Löschen, Rechte, Passwort, Export | NI-SA | nicht mutiert |
 
 ## Responsive
