@@ -1,5 +1,9 @@
 # Lehrkraft-Rundgang durch die Arcanum-DEMO
 
+> **Aktueller vollständiger Stand:** Verwende den [neuen Lehrkraftrundgang](rundgang-lehrkraft.de.md)
+> und den [eigenständigen Administrationsrundgang](rundgang-administration.de.md).
+> Diese Datei bleibt als bisheriger Überblick erhalten.
+
 Diese Anleitung ist der zweite Einstieg nach dem [deutschen Schülerrundgang](handbuch.de.md). Sie führt Schritt für Schritt durch die Bereiche, die eine Lehrkraft im **Teacher Cockpit** (Lehrkraft-Übersicht) für den Unterrichtsalltag braucht.
 
 Die Aufnahmen stammen aus einem echten DEMO-Abnahmelauf. Die DEMO ist gemeinsam genutzt; Namen, Klassen, Etappen und Zähler können sich deshalb ändern. Die Konten und Namen in den Bildern sind synthetisch. Das Lehrkraftkonto wird ausschließlich in der öffentlichen [Zugangsdaten-PDF](../Arcanum_DEMO_Zugangsdaten.pdf) nachgeschlagen. Das Passwort wird hier weder wiederholt noch in Screenshots eingegeben.

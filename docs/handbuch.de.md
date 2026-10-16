@@ -1,5 +1,10 @@
 # Arcanum zuerst als Schüler verstehen
 
+> **Aktueller vollständiger Rundgang:** Bitte den [neuen Schülerrundgang](rundgang-schueler.de.md)
+> verwenden. Diese Seite bleibt als bisheriger Einstieg mit ergänzenden
+> Erläuterungen erhalten; ihre älteren Beispielbilder sind nicht der aktuelle
+> Live-Abnahmestand.
+
 **DEMO:** [arcanum-demo.dynv6.net](https://arcanum-demo.dynv6.net/login)
 **Öffentliche Konten:** [Arcanum DEMO Zugangsdaten](../Arcanum_DEMO_Zugangsdaten.pdf)
 
@@ -238,9 +243,10 @@ Der Unterschied der Ansichten:
 ## 12. Danach: Lehrkraft und Administration
 
 Der Einsteiger-Rundgang endet bewusst beim Schüler. Die getrennte
-[Lehrkraft- und Administrationsanleitung](lehrkraft-und-administration.de.md)
-behandelt danach Teacher Cockpit, Schülerfortschritt, Gelingensnachweise,
-Tutorbereich, Anwesenheit, Schuljahr, Curriculum und Berechtigungen.
+[Lehrkraftrundgang](rundgang-lehrkraft.de.md) und
+[Administrationsrundgang](rundgang-administration.de.md) behandeln danach
+Teacher Cockpit, Schülerfortschritt, Gelingensnachweise, Tutorbereich,
+Anwesenheit, Schuljahr, Curriculum und Berechtigungen.
 
 ## Begriffe und Sicherheit
 

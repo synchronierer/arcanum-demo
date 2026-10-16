@@ -3,11 +3,10 @@
 Arcanum ist eine Lernumgebung: Schülerinnen und Schüler sehen ihre Fächer,
 Etappen, Münzen und ihren aktuellen Lernstand.
 
-## Start hier: geführter Schülerrundgang
+## Drei gleichwertige Einstiege
 
 Öffne die [öffentliche DEMO](https://arcanum-demo.dynv6.net/login) am besten
-mit Laptop oder Tablet und folge dem
-[deutschen Anfängerrundgang](docs/handbuch.de.md).
+mit Laptop oder Tablet und folge dem passenden vollständigen Rundgang.
 
 Für den Rundgang verwenden wir das synthetische Konto **Anton Apfel
 (Klasse 6a)**. Der Login-Name `anton.apfel` steht in der [öffentlichen Zugangsdaten-PDF](Arcanum_DEMO_Zugangsdaten.pdf);
@@ -16,19 +15,22 @@ das Passwort wird nicht in Screenshots oder dieser Anleitung wiederholt.
 Die DEMO enthält ausschließlich erfundene Testdaten. Sie ist gemeinsam genutzt;
 Änderungen anderer Personen können sichtbar sein.
 
-![Anmeldeseite](docs/images/student-tour/01-login.png)
+![Aktuelles Schülerdashboard](docs/images/rundgaenge/schueler/01-dashboard-live.png)
 
-![Schülerdashboard](docs/images/student-tour/02-dashboard-overview.png)
+### Schüler
 
-![Schatzkammer](docs/images/student-tour/07-schatzkammer.png)
+Schülerinnen und Schüler starten mit **Anton Apfel** (`anton.apfel`, Klasse 6a)
+und folgen dem [vollständigen Schülerrundgang](docs/rundgang-schueler.de.md).
 
-## Zweiter Einstieg: geführter Lehrkraft-Rundgang
+### Lehrkraft
 
-Lehrkräfte finden im [deutschen Lehrkraft-Rundgang](docs/lehrkraft-und-administration.de.md) Schritt für Schritt Teacher Cockpit, Themen & Etappen, Schülerfortschritt, Gelingensnachweise, Tutorenbereich und Anwesenheit. Für den Tutor-Rundgang ist in der PDF **Dora Dinkel** (`dora.dinkel`, Tutor-Klasse 6d) empfohlen.
+Lehrkräfte verwenden **Dora Dinkel** (`dora.dinkel`, Tutor-Klasse 6d) und den
+[vollständigen Lehrkraftrundgang](docs/rundgang-lehrkraft.de.md). Er zeigt
+auch gefüllten Schülerfortschritt, Gelingensnachweise und die Tutorübersicht.
 
-![Teacher Cockpit](docs/images/teacher-tour/01-teacher-cockpit.png)
+![Aktuelles Teacher Cockpit](docs/images/rundgaenge/lehrkraft/01-cockpit-live.png)
 
-![Schülerfortschritt für Lehrkräfte](docs/images/teacher-tour/03-schuelerfortschritt.png)
+![Aktueller Schülerfortschritt für Lehrkräfte](docs/images/rundgaenge/lehrkraft/03-schuelerfortschritt-live.png)
 
 ## Gerätehinweis
 
@@ -36,9 +38,18 @@ Für den ersten Rundgang empfehlen wir Laptop oder Tablet. Die Ansichten
 funktionieren bei 768 px, 1024 px und 1440 px. Auf sehr schmalen
 Smartphone-Displays kann derzeit seitliches Scrollen auftreten.
 
-## Weitere Rundgänge
+### Administration
+
+Administratoren verwenden **Ada Ananas** (`ada.ananas`) und den eigenständigen
+[Administrationsrundgang](docs/rundgang-administration.de.md). Kritische
+Verwaltungsaktionen werden dort erklärt, aber auf der gemeinsam genutzten DEMO
+nicht gespeichert.
+
+Alle Konten stehen in der [öffentlichen Zugangsdaten-PDF](Arcanum_DEMO_Zugangsdaten.pdf);
+Passwörter werden nicht in dieser README wiederholt.
+
+## Weitere Dokumentation
 
 - [Deutscher Schülerrundgang](docs/handbuch.de.md)
-- [Geführter Lehrkraft-Rundgang](docs/lehrkraft-und-administration.de.md)
-- [Lehrkraft und Administration](docs/lehrkraft-und-administration.de.md) (Administrationsüberblick)
+- [Lehrkraft und Administration – bisheriger Überblick](docs/lehrkraft-und-administration.de.md)
 - [English documentation](README.en.md)
