@@ -1,6 +1,6 @@
 # Interne Screenshot-Abnahme
 
-Stand: 16.10.2026. Jede veröffentlichte Aufnahme stammt aus einer frischen
+Stand: 17.10.2026. Die vorhandenen Aufnahmen stammen aus frischen
 Browser-Sitzung gegen die laufende DEMO. Die erste Prüfung erfolgte unmittelbar
 im Browser nach der Navigation; die zweite Prüfung erfolgte durch erneutes
 visuelles Öffnen der gespeicherten PNGs. Für die zweite Sichtprüfung wurden
@@ -11,7 +11,7 @@ Beschriftung, Zustand, Ausschnitt und Überlauf verglichen.
 
 | Rolle | PNGs | Browserprüfung | PNG-Sichtprüfung | Ersetzt | Nicht akzeptiert |
 |---|---:|---|---|---:|---:|
-| Schüler | 7 | PASS für gezeigte Zustände; `/results`-Fehler getrennt dokumentiert | PASS | 0 | 0 |
+| Schüler | 7 | PASS für gezeigte Zustände; `/results` für drei Konten HTTP 200 | PASS für die vier neu aufgenommenen Berta-Bilder | 4 | 0 |
 | Lehrkraft | 8 | PASS für Cockpit/Fortschritt/Detail; Verlauf FAILED | PASS | 0 | 0 |
 | Administration | 10 | PASS für Lesesichten; Rollen-/Moduldetails NI-SA | PASS | 0 | 0 |
 | Gesamt | 25 | nicht pauschal PASS: einzelne Funktionen FAILED/NI-SA | PASS | 0 | 0 |

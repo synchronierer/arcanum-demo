@@ -3,7 +3,7 @@
 Verwende für den vollständigen Tutor-Rundgang **Dora Dinkel**
 (`dora.dinkel`) aus der [öffentlichen Zugangsdaten-PDF](../Arcanum_DEMO_Zugangsdaten.pdf).
 Das Passwort wird nicht wiederholt. Dora ist der empfohlene Tutorzugang für
-Klasse 6d. Die Live-Aufnahmen wurden am 16.10.2026 mit 1440 px erstellt; die
+Klasse 6d. Die Live-Aufnahmen und Befunde wurden am 17.10.2026 mit 1440 px erstellt; die
 Namen in den Tabellen sind synthetische DEMO-Namen.
 
 ## 1. Anmeldung und Navigation
@@ -31,8 +31,10 @@ nicht automatisch eine leere Schülerdatenbank.
 ![Zentrale und flexible Themen mit Münzbudget und Freigabestatus](images/rundgaenge/lehrkraft/02-themen-etappen-live.png)
 
 Öffne **Themen & Etappen**, wähle den Kontext und klicke **Anzeigen /
-Aktualisieren**. Die getestete Ansicht zeigte: zentral 63 + flexibel 20 = 83
-geplante Münzen, regulärer Rahmen 100 und absolute Grenze 105. Sichtbar waren
+Aktualisieren**. Im GL-Kontext zeigte die Ansicht zentral 63 + flexibel 20 =
+83 geplante Münzen; im Mathe-Kontext von Berta Birne waren es nach dem
+Neuaufbau 80 zentrale plus 15 flexible Münzen = 95. Beide liegen unter dem
+regulären Rahmen 100 und der absoluten Grenze 105. Sichtbar waren
 zentrale Themen wie „Ägypten“ und „Kinderwelten“ sowie flexible Themen „Erste
 Schulwoche“ und „Mitarbeit“.
 
@@ -69,10 +71,10 @@ nicht-mutierenden Klick tatsächlich geöffnet:
 ![Individuelle Schülerdetails für Anton Banane](images/rundgaenge/lehrkraft/07-schueler-detail-live.png)
 
 Die Detailansicht zeigt Themen, Etappen, Typ (zentral/flexibel), Münzen,
-Bewertung, Verdienst und „In Bearbeitung“. Die vorhandenen Bewertungen stehen
-auf „Noch nicht bewertet“; die Auswahlfelder wurden nicht verändert. Das Bild
-belegt daher die Detailansicht, nicht eine neue Bewertung.
-Bewertungs- und Bestätigungswege werden nicht ausgeführt.
+Bewertung, Verdienst und „In Bearbeitung“. Im Neuaufbau wurden Anton Apfel,
+Berta Banane und Dora Kakao über ihre zuständigen Kontexte tatsächlich
+bestätigt. Bei Berta ist außerdem ein erster Fehlversuch sichtbar; Anton hat
+eine weitere aktuelle Etappe.
 
 ## 5. Gelingensnachweise und Fehlversuche
 
@@ -108,10 +110,9 @@ enthalten und darf nur sicher gespeichert oder geteilt werden.
 
 ![Tutorübersicht mit Fachmünzen, Noten und Verlaufsschaltflächen](images/rundgaenge/lehrkraft/08-tutorverlauf-live.png)
 
-Die gefüllten Zeilen belegen Fachstände: Berta Banane steht im Mathematikfach
-mit 3 Münzen und im WPF Ökologie mit 4 Münzen. Diese Werte stimmen mit Bertas
-Schüler-Schatzkammer überein; sie sind ein lesender Abgleich, keine neue
-Bewertung.
+Die gefüllten Zeilen belegen Fachstände: Berta Banane steht nach dem Reset im
+Mathematikfach mit 1 Münze. Dieser Wert stimmt mit Bertas Schüler-Schatzkammer
+überein; er ist ein lesender Abgleich der regulär bestätigten Etappe.
 
 Eine Fachlehrkraft sieht ihren Fachkontext und die zugeordneten Schüler. Die
 Tutor-Lehrkraft bündelt zusätzlich die eigene Klasse über mehrere Fächer und

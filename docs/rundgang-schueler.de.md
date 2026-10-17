@@ -4,7 +4,7 @@ Dieser Rundgang zeigt die Schüleransicht der laufenden DEMO mit dem
 synthetischen Konto **Anton Apfel** (`anton.apfel`, Klasse 6a). Das Passwort
 wird ausschließlich aus der [verbindlichen öffentlichen
 Zugangsdaten-PDF](../Arcanum_DEMO_Zugangsdaten.pdf) übernommen und hier nicht
-wiederholt. Die Aufnahmen und Befunde stammen vom 16.10.2026, Breite 1440 px.
+wiederholt. Die Aufnahmen und Befunde stammen vom 17.10.2026, Breite 1440 px.
 
 ## 1. Anmeldung und sicher beginnen
 
@@ -25,7 +25,7 @@ Avatarwahl und das Beginnen einer Etappe können den gemeinsamen Zustand ändern
 
 Oben stehen **Klasse**, **Graduierung**, **E-Mail/Benutzername**, Avatar,
 **Gesamtmünzen** und **Platz**. Im Livezustand waren die Werte `6a`,
-`Neustarter`, `anton.apfel`, `0 Münzen`; der Rang lautete „Du bist nicht in den
+`Starter`, `anton.apfel`, `1 Münze`; der Rang lautete „Du bist nicht in den
 Top Ten.“ Das ist ein Vergleich innerhalb des Jahrgangs und keine Schulnote.
 
 Die Graduierung beschreibt Selbstständigkeit und Verantwortung. Sie ist nicht
@@ -56,7 +56,7 @@ Wahlpflichtfach. Eine Fachkarte enthält Fachname, verdiente Münzen,
 Fortschritt, Abstand zur nächsten Notengrenze, **aktuellen Zwischenstand**,
 **Zeugnisprognose**, Aktionen und die vier Etappenstatus.
 
-Im Livebild standen in der gezeigten Karte 0 Münzen, „20 Münzen bis Note 5“
+Im Livebild standen in Antons gezeigter Karte 1 Münze, „19 Münzen bis Note 5“
 und „Note 6 · ungenügend“. Die Anzeige sagt ausdrücklich, dass dies nur der
 bisherige Zwischenstand und noch keine Zeugnisprognose ist. Eine Prognose ist
 eine mögliche Entwicklung, keine eingetragene Zeugnisnote. Bei zu wenigen
@@ -70,12 +70,12 @@ eine erfundene Etappe ersetzt werden.
 Für die folgenden Beispiele mit verdienten Leistungen melde dich mit
 **Berta Banane** (`berta.banane`) aus derselben PDF an. Dieses Konto ist ein
 anderer, ausdrücklich veröffentlichter Schülerzugang. Es zeigt im geprüften
-Livezustand 7 Gesamtmünzen, Rang 1/97, Klasse 6d und die Graduierung Starter.
+Livezustand 1 Gesamtmünze, Klasse 6d und die Graduierung Starter. Zusätzlich
+ist ein erster Fehlversuch einer zweiten Mathe-Etappe im Lehrkraftbereich sichtbar.
 
 ![Berta Bananes gefülltes Schülerdashboard](images/rundgaenge/schueler/03-berta-dashboard-live.png)
 
-Die Karten zeigen Mathematik mit 3 Münzen und einer bestandenen Etappe sowie
-das Wahlpflichtfach mit 4 Münzen und einer bestandenen Etappe. Damit ist der
+Die Karte zeigt Mathematik mit 1 Münze und einer bestandenen Etappe. Damit ist der
 Unterschied zwischen einem leeren Lernstand (Anton) und tatsächlich
 verdienten Leistungen (Berta) sichtbar belegt.
 
@@ -116,20 +116,19 @@ unabhängig von den Meldungen:
 - **Bestanden**: bestätigte Leistungen;
 - **Gesperrt**: derzeit nicht bearbeitbare Etappen.
 
-Anton Apfels Livezustand zeigte bei allen vier Zählern 0. Das ist der passende
-Beispielzustand dieses Kontos und kein Beweis, dass es in der DEMO keine
-anderen Status gibt. Für dieses Konto waren keine anderen Statusarten
-verfügbar; es werden deshalb keine falschen Beispiele verwendet.
+Anton Apfels Livezustand zeigte eine bestandene und eine aktuell begonnene
+Mathe-Etappe; offene und gesperrte Etappen blieben in der geprüften Karte bei
+0. Das ist ein konkreter Musterverlauf, kein allgemeiner Zustand aller Konten.
 
-Berta zeigt dagegen in Mathematik und WPF jeweils **1 bestandene Etappe**.
-Die Kacheln zeigen zugleich 0 aktuell und 0 gesperrt. Eine gefüllte Kachel ist
+Berta zeigt in Mathematik **1 bestandene Etappe** und einen ersten Fehlversuch
+bei einer weiteren Etappe. Eine gefüllte Kachel ist
 damit ein echter Nachweis für den jeweils sichtbaren Zustand, aber kein Beleg,
 dass jedes Konto dieselben Etappen besitzt.
 
-![Mathematik-Karte mit Zwischenstand, 3 verdienten Münzen und bestandener Etappe](images/rundgaenge/schueler/04-berta-mathematik-live.png)
+![Mathematik-Karte mit Zwischenstand, 1 verdienter Münze und bestandener Etappe](images/rundgaenge/schueler/04-berta-mathematik-live.png)
 
 In Bertas Mathematik-Karte steht der aktuelle Zwischenstand „Note 6 ·
-ungenügend“ und „17 Münzen bis Note 5“. Das ist eine aus bisher verdienten
+ungenügend“ und „19 Münzen bis Note 5“. Das ist eine aus bisher verdienten
 Münzen berechnete Momentaufnahme. Eine Zeugnisprognose wird dort ausdrücklich
 noch nicht berechnet. Die Anzeige „Sammle noch ein paar bestätigte Etappen …“
 ist deshalb nicht als Prognose zu lesen.
@@ -146,12 +145,10 @@ Reguläre Fächer gehören zum Lernplan der Klasse. Das individuelle WPF
 automatisch leichter oder schwerer; Etappen, Münzen, Noten und Prognosen
 folgen derselben Logik. Andere Schüler können ein anderes WPF oder keines haben.
 
-![WPF-Karte mit 4 verdienten Münzen und bestandener Etappe](images/rundgaenge/schueler/05-berta-wpf-live.png)
+![WPF-Karte mit individueller Fachzuordnung](images/rundgaenge/schueler/05-berta-wpf-live.png)
 
-Bei Berta sind 4 Münzen im WPF sichtbar. Das bestätigt die individuelle
-Fachzuordnung und einen abgeschlossenen WPF-Lernstand. Die Karten zeigen
-jeweils „Noch kein Thema zugewiesen“; die zugehörige abgeschlossene Leistung
-ist dennoch im Erfolgslogbuch der Schatzkammer sichtbar.
+Bei Berta war im geprüften Lauf kein neuer WPF-Abschluss Teil des Neuaufbaus;
+die individuelle WPF-Zuordnung bleibt als Fachangebot sichtbar.
 
 ## 8. Schatzkammer und Verlauf
 
@@ -161,24 +158,16 @@ das Erfolgslogbuch erscheinen. Das Logbuch ordnet Münzen bestätigten Etappen
 zu; variable Leistungen können ihren tatsächlichen Wert gegenüber dem Maximum
 zeigen.
 
-Mit Berta Banane lädt `/results` vollständig. Die Mathematik-Karte zeigt
-3/100 Münzen und im Erfolgslogbuch den Eintrag „Mündlich … 3 von 10 Münzen“.
-Das ist der nachweisbare Unterschied zwischen einem variablen Münzmaximum von
-10 und dem tatsächlich gutgeschriebenen Wert 3. Im WPF-Logbuch steht eine
-konkrete abgeschlossene Etappe „6 Öko 1.1.1 Ökosysteme am Beispiel Wald“ mit
-`+4` und dem Thema „terrestrisches Ökosystem“.
+Mit Anton Apfel, Berta Banane und Dora Kakao lädt `/results` nach dem
+Neuaufbau jeweils mit HTTP 200. Anton zeigt 1 Mathe-Münze, Berta 1 Mathe-Münze
+und Dora Kakao 3 Deutsch-Münzen aus einer bestätigten Etappe.
 
-![Bertas gefüllte Schatzkammer mit Mathematik- und WPF-Erfolg](images/rundgaenge/schueler/06-berta-schatzkammer-live.png)
+![Schatzkammer mit den im Neuaufbau bestätigten Erfolgen](images/rundgaenge/schueler/06-berta-schatzkammer-live.png)
 
-Mit Anton Apfel und Dora Kakao wurde dieselbe Route unabhängig wiederholt. Bei
-beiden scheitert eine Fortschrittsantwort reproduzierbar mit HTTP 409 und dem
-Fehler `context_conflict`; die Oberfläche bleibt bei der Lade-/Fehlermeldung.
-Das ist kein allgemeines Warteproblem: Berta und weitere geprüfte Konten
-erhielten HTTP 200 und eine gefüllte Ansicht. Der Befund bleibt für die
-betroffenen Konten **FAILED**. Eine berechnete Zeugnisprognose war in keinem
-der geprüften öffentlichen Schülerkonten sichtbar; dafür wird kein Bild als
-Beleg ausgegeben. Ein späterer Source-Fix gehört nach `arcanum-dev`, nicht in
-diese Dokumentationsänderung.
+Eine berechnete Zeugnisprognose war bei den drei neu geprüften Konten wegen
+der noch kleinen Zahl bestätigter Etappen nicht verfügbar. Eine variable
+Etappe wurde als Lehrkraftbeispiel angelegt und freigegeben, aber im Lauf noch
+nicht regulär abgeschlossen; deshalb wird keine variable Gutschrift behauptet.
 
 ## 9. Abmelden, Fehler und Grenzen
 

@@ -3,7 +3,7 @@
 Verwende ausschließlich den öffentlichen Demo-Administrator **Ada Ananas**
 (`ada.ananas`) aus der [verbindlichen Zugangsdaten-PDF](../Arcanum_DEMO_Zugangsdaten.pdf).
 Das Passwort wird nicht wiederholt. Dieser Rundgang ist eine lesende
-Funktionsabnahme vom 16.10.2026 bei 1440 px. Formulare und Vorschauen werden
+Funktionsabnahme vom 17.10.2026 bei 1440 px. Formulare und Vorschauen werden
 gezeigt, aber keine Änderungen gespeichert.
 
 ## 1. Dashboard und Sicherheitsregeln
@@ -86,7 +86,10 @@ Tutor 1 und Tutor 2 je Klasse, Jahrgang 5/6, Fachlehrkraftmatrizen und
 individuelle Zuordnungen. Daraus ergeben sich Unterrichtskontexte und
 Kursgruppen/Mitgliedschaften.
 
-Die geprüften Auswahlfelder für Halbjahr und Jahrgang wurden nur gelesen.
+Die geprüften Auswahlfelder für Halbjahr und Jahrgang wurden nur gelesen. Der
+fachliche Neuaufbau hat die bestehende Organisation und das aktive Halbjahr
+`2026_27_HJ1` erhalten; zurückgesetzt wurden ausschließlich die
+schülerbezogenen Fortschritte dieses Halbjahres.
 Die abgebildeten Zuordnungen sind ein Zustandsnachweis, keine Aufforderung,
 Lehrkräfte auf der DEMO neu zuzuordnen.
 

@@ -31,21 +31,21 @@ Browser beobachtet. Ein sichtbarer Button ohne Ausführung ist kein PASS.
 | S03 | Schüler / Anton | Fachkarten | Notengrenzen/Zwischenstand | Grenzen und Note 6 sichtbar | `schueler/01-dashboard-live.png` | Schüler §2–3 | PASS |
 | S04 | Schüler / Anton | Fachkarte | Avatar bearbeiten | Dialog geöffnet, nicht gespeichert | `schueler/02-avatar-dialog-live.png` | Schüler §4 | PASS |
 | S05 | Schüler / Anton | Fachkarte | Hilfe/Partner/Experiment/GN | Aktiv/inaktiv sichtbar, Klick nicht ausgeführt | `schueler/01-dashboard-live.png` | Schüler §5 | PASS |
-| S06 | Schüler / Anton | Fachkarte | Offen/Aktuell/Bestanden/Gesperrt | alle vier Zähler 0 | `schueler/01-dashboard-live.png` | Schüler §6 | PASS |
-| S07 | Schüler / Berta | `/dashboard` | Gesamtmünzen/Rang | 7 Münzen, Platz 1/97, Klasse 6d | `schueler/03-berta-dashboard-live.png` | Schüler §3 | PASS |
-| S08 | Schüler / Berta | Mathematik-Karte | verdiente Münzen | 3 Münzen, 1 bestanden | `schueler/04-berta-mathematik-live.png` | Schüler §6 | PASS |
-| S09 | Schüler / Berta | Mathematik-Karte | Zwischenstand/Notengrenze | Note 6, 17 bis Note 5 | `schueler/04-berta-mathematik-live.png` | Schüler §6 | PASS |
+| S06 | Schüler / Anton | Fachkarte | Offen/Aktuell/Bestanden/Gesperrt | 0/1/1/0 nach regulärem Neubau | `schueler/01-dashboard-live.png` | Schüler §6 | PASS |
+| S07 | Schüler / Berta | `/dashboard` | Gesamtmünzen/Rang | 1 Münze, Klasse 6d | `schueler/03-berta-dashboard-live.png` | Schüler §3 | PASS |
+| S08 | Schüler / Berta | Mathematik-Karte | verdiente Münzen | 1 Münze, 1 bestanden, 1 Fehlversuch | `schueler/04-berta-mathematik-live.png` | Schüler §6 | PASS |
+| S09 | Schüler / Berta | Mathematik-Karte | Zwischenstand/Notengrenze | Note 6, 19 bis Note 5 | `schueler/04-berta-mathematik-live.png` | Schüler §6 | PASS |
 | S10 | Schüler / Berta | WPF-Karte | individuelles Fach | 4 Münzen, 1 bestanden | `schueler/05-berta-wpf-live.png` | Schüler §7 | PASS |
-| S11 | Schüler / Berta | `/results` Mathematik | Erfolgslogbuch/variable Münzen | Mündlich, 3 von 10 Münzen | `schueler/06-berta-schatzkammer-live.png` | Schüler §8 | PASS |
-| S12 | Schüler / Berta | `/results` WPF | Etappe, Thema, Wert | Öko-Etappe, Thema, +4 sichtbar | `schueler/06-berta-schatzkammer-live.png` | Schüler §8 | PASS |
-| S13 | Schüler / Anton | `/results` | Fortschritzdaten laden | HTTP 409 `context_conflict`, Fehlerzustand | — | Schüler §8 | FAILED |
-| S14 | Schüler / Dora Kakao | `/results` | Fehler reproduzieren | ebenfalls HTTP 409 `context_conflict` | — | Schüler §8 | FAILED |
-| S15 | Schüler / öffentliche Konten | Fachkarten | Zeugnisprognose | in keinem geprüften Konto berechnet | — | Schüler §6/8 | FAILED |
+| S11 | Schüler / Berta | `/results` Mathematik | Erfolgslogbuch | 1 Münze, zentrale Etappe sichtbar | `schueler/06-berta-schatzkammer-live.png` | Schüler §8 | PASS |
+| S12 | Schüler / Dora Kakao | `/results` Deutsch | Etappe, Thema, Wert | zentrale Deutsch-Etappe, +3 sichtbar | — | Schüler §8 | PASS |
+| S13 | Schüler / Anton | `/results` | Fortschritzdaten laden | HTTP 200, 1 Mathe-Münze sichtbar | — | Schüler §8 | PASS |
+| S14 | Schüler / Dora Kakao | `/results` | Fortschritzdaten laden | HTTP 200, Deutsch-Erfolg sichtbar | — | Schüler §8 | PASS |
+| S15 | Schüler / öffentliche Konten | Fachkarten | Zeugnisprognose | bei wenigen Etappen noch nicht berechenbar | — | Schüler §6/8 | OPEN |
 | L01 | Lehrkraft / Dora | Cockpit | Halbjahr/Kontexte | 2026_27_HJ1, 6d GL/Mathematik | `lehrkraft/01-cockpit-live.png` | Lehrkraft §1–2 | PASS |
 | L02 | Lehrkraft / Dora | Curriculum | zentrale/flexible Themen | 63+20, Rahmen 100, Grenze 105 | `lehrkraft/02-themen-etappen-live.png` | Lehrkraft §3 | PASS |
 | L03 | Lehrkraft / Dora | Schülerfortschritt | Kontext laden | mehrere Schüler und Signale | `lehrkraft/03-schuelerfortschritt-live.png` | Lehrkraft §4 | PASS |
 | L04 | Lehrkraft / Dora | Schülerfortschritt | Details erster Schüler | Anton Banane, Etappen/Bewertungen sichtbar | `lehrkraft/07-schueler-detail-live.png` | Lehrkraft §4 | PASS |
-| L05 | Lehrkraft / Dora | Schülerdetail | Bewertungsfeld | sichtbar, nicht verändert | — | Lehrkraft §4/9 | NICHT_SICHER_AUSFÜHRBAR |
+| L05 | Lehrkraft / Dora | Schülerdetail | Leistungsbestätigung | Anton, Berta und Dora regulär bestätigt; Berta mit Fehlversuch | — | Lehrkraft §4/9 | PASS |
 | L06 | Lehrkraft / Dora | GN | fünf Lesefilter | Bereitschaften und 1x Fehlversuch sichtbar | `lehrkraft/04-gelingensnachweise-live.png` | Lehrkraft §5 | PASS |
 | L07 | Lehrkraft / Dora | Tutor 6d | Übersicht laden | 25 Schüler, Fachmünzen/Noten | `lehrkraft/05-tutorbereich-live.png` | Lehrkraft §6 | PASS |
 | L08 | Lehrkraft / Dora | Tutor 6d | Verlauf anzeigen | Zeile markiert, keine separate Ansicht/kein Fehler | `lehrkraft/08-tutorverlauf-live.png` | Lehrkraft §6 | FAILED |
