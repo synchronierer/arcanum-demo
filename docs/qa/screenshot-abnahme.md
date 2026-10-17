@@ -11,7 +11,7 @@ Beschriftung, Zustand, Ausschnitt und Überlauf verglichen.
 
 | Rolle | PNGs | Browserprüfung | PNG-Sichtprüfung | Ersetzt | Nicht akzeptiert |
 |---|---:|---|---|---:|---:|
-| Schüler | 7 | PASS für gezeigte Zustände; `/results` für drei Konten HTTP 200 | PASS für die vier neu aufgenommenen Berta-Bilder | 4 | 0 |
+| Schüler | 8 | PASS für gezeigte Zustände; `/results` für drei Konten HTTP 200 | PASS für die aktualisierten Anton-/Berta-Bilder | 6 | 0 |
 | Lehrkraft | 8 | PASS für Cockpit/Fortschritt/Detail; Verlauf FAILED | PASS | 0 | 0 |
 | Administration | 10 | PASS für Lesesichten; Rollen-/Moduldetails NI-SA | PASS | 0 | 0 |
 | Gesamt | 25 | nicht pauschal PASS: einzelne Funktionen FAILED/NI-SA | PASS | 0 | 0 |
@@ -29,17 +29,18 @@ Anton-Apfel-Livezustand beschrieben, nicht als allgemeiner Systemzustand.
 - `00-anmeldung-live.png`: `/login`, 1440 px; leere Anmeldemaske ohne
   eingetragenes Passwort.
 - `01-dashboard-live.png`: Anton Apfel, `/dashboard`, 1440 px; Profil,
-  Notengrenzen, 0 Münzen, Hilfe aktiv, Partner/Experiment/GN inaktiv und vier
-  Etappenstatus sichtbar.
+  Notengrenzen, 6 Münzen und aktueller Mathe-Fortschritt sichtbar.
 - `02-avatar-dialog-live.png`: Anton Apfel, geöffneter Avatar-Dialog;
   Auswahlfunktion sichtbar, keine Auswahl gespeichert.
-- `03-berta-dashboard-live.png`: Berta Banane, 7 Gesamtmünzen, Rang 1/97,
-  gefüllte Mathematik- und WPF-Karten.
-- `04-berta-mathematik-live.png`: Mathematik, 3 Münzen, Note 6,
-  bestandene Etappe und 17 Münzen bis Note 5.
-- `05-berta-wpf-live.png`: WPF, 4 Münzen und eine bestandene Etappe.
-- `06-berta-schatzkammer-live.png`: Ergebnisse mit variablem Eintrag 3 von
-  10 und WPF-Erfolg +4.
+- `03-berta-dashboard-live.png`: Berta Banane, aktuelles Mathematikangebot
+  und synthetischer Kontostand.
+- `04-berta-mathematik-live.png`: Mathematik mit bestätigter Etappe,
+  Fehlversuch und fachlicher Notengrenze.
+- `05-berta-wpf-live.png`: WPF-Angebot ohne neue Leistung im Semester-Neuaufbau.
+- `06-berta-schatzkammer-live.png`: aktuelle Ergebnisse mit einer bestätigten
+  Mathe-Leistung und 1 Münze.
+- `07-anton-schatzkammer-final.png`: Anton Apfel, `/results`, 6 Gesamtmünzen;
+  der variable Eintrag „3 von 5 Münzen“ ist im Mathe-Erfolgslogbuch sichtbar.
 
 ### Lehrkraft
 

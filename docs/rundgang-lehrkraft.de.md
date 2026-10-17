@@ -44,6 +44,11 @@ gemeinsamer Curriculum-Inhalt, **Flexibel** gehört zum Kontext.
 Variable Münzvergabe betrifft den später tatsächlich verliehenen Wert innerhalb
 des Budgets.
 
+Im Mathe-Kontext von Berta Birne wurde die vorhandene variable Etappe
+„Rechenweg erklären“ mit maximal 5 Münzen im Schülerkonto begonnen und
+anschließend von der zuständigen Lehrkraft mit 3 Münzen bestätigt. Im
+Erfolgslogbuch wird „3 von 5 Münzen“ ausgewiesen.
+
 **Freigeben**, **Alle freigeben**, **Sperren**, **Alle sperren**, **Speichern**,
 **Anlegen**, **Umbenennen** und **Löschen** können Schülerzugang, Curriculum
 oder Münzplanung verändern. Sie wurden nicht angeklickt. Kontextauswahl und
@@ -74,7 +79,7 @@ Die Detailansicht zeigt Themen, Etappen, Typ (zentral/flexibel), Münzen,
 Bewertung, Verdienst und „In Bearbeitung“. Im Neuaufbau wurden Anton Apfel,
 Berta Banane und Dora Kakao über ihre zuständigen Kontexte tatsächlich
 bestätigt. Bei Berta ist außerdem ein erster Fehlversuch sichtbar; Anton hat
-eine weitere aktuelle Etappe.
+eine weitere regulär bestätigte variable Etappe.
 
 ## 5. Gelingensnachweise und Fehlversuche
 
@@ -100,11 +105,12 @@ Fachmünzen und daraus abgeleitete Noten für Deutsch, Englisch,
 Gesellschaftslehre, Mathematik, Naturwissenschaften und verfügbare WPF-
 Spalten.
 
-**Verlauf anzeigen** ist als Bedienelement vorhanden. Der unabhängige Klick
-auf den ersten Eintrag markierte die Zeile, öffnete in diesem Lauf aber keine
-separate Verlaufsansicht und erzeugte keine HTTP-Fehlermeldung. Das Verhalten
-ist daher **FAILED/klärungsbedürftig** und wird nicht als vorhandener Verlauf
-behauptet. **ändern** bearbeitet die Graduierung und wird nicht verwendet.
+Die aktuelle Tabelle öffnet über **Details** den vollständigen Berta-Eintrag
+mit Themen, Etappen und Bewertungen. Ein separater **Verlauf anzeigen**-
+Bereich war im aktuellen UI-Lauf nicht nachweisbar; es entstand dabei kein
+HTTP-Fehler. Dieser Teil bleibt als **OPEN / CODE_FIX_REQUIRED** dokumentiert
+und wird nicht als vorhandene Verlaufsansicht behauptet. **ändern** bearbeitet
+die Graduierung und wird nicht verwendet.
 **Drucken / als PDF speichern** ist eine Ausgabe, kann aber Schülerdaten
 enthalten und darf nur sicher gespeichert oder geteilt werden.
 

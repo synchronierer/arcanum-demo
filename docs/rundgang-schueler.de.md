@@ -25,8 +25,8 @@ Avatarwahl und das Beginnen einer Etappe können den gemeinsamen Zustand ändern
 
 Oben stehen **Klasse**, **Graduierung**, **E-Mail/Benutzername**, Avatar,
 **Gesamtmünzen** und **Platz**. Im Livezustand waren die Werte `6a`,
-`Starter`, `anton.apfel`, `1 Münze`; der Rang lautete „Du bist nicht in den
-Top Ten.“ Das ist ein Vergleich innerhalb des Jahrgangs und keine Schulnote.
+`Starter`, `anton.apfel`, `6 Münzen`; der Rang lautete „Platz 1/97“. Das ist
+ein Vergleich innerhalb des Jahrgangs und keine Schulnote.
 
 Die Graduierung beschreibt Selbstständigkeit und Verantwortung. Sie ist nicht
 das akademische Etappen-Niveau **Wanderer**, **Bergsteiger** oder
@@ -56,7 +56,7 @@ Wahlpflichtfach. Eine Fachkarte enthält Fachname, verdiente Münzen,
 Fortschritt, Abstand zur nächsten Notengrenze, **aktuellen Zwischenstand**,
 **Zeugnisprognose**, Aktionen und die vier Etappenstatus.
 
-Im Livebild standen in Antons gezeigter Karte 1 Münze, „19 Münzen bis Note 5“
+Im Livebild standen in Antons gezeigter Karte 6 Münzen, „14 Münzen bis Note 5“
 und „Note 6 · ungenügend“. Die Anzeige sagt ausdrücklich, dass dies nur der
 bisherige Zwischenstand und noch keine Zeugnisprognose ist. Eine Prognose ist
 eine mögliche Entwicklung, keine eingetragene Zeugnisnote. Bei zu wenigen
@@ -75,7 +75,7 @@ ist ein erster Fehlversuch einer zweiten Mathe-Etappe im Lehrkraftbereich sichtb
 
 ![Berta Bananes gefülltes Schülerdashboard](images/rundgaenge/schueler/03-berta-dashboard-live.png)
 
-Die Karte zeigt Mathematik mit 1 Münze und einer bestandenen Etappe. Damit ist der
+Die Karte zeigt Mathematik mit 1 bestandenen Etappe. Damit ist der
 Unterschied zwischen einem leeren Lernstand (Anton) und tatsächlich
 verdienten Leistungen (Berta) sichtbar belegt.
 
@@ -102,9 +102,11 @@ Jede Fachkarte enthält vier Meldungen. Der Zustand steht als **aktiv** oder
 - **Gelingensnachweis** meldet Bereitschaft. Das ist kein automatisches
   Bestanden und keine automatische Münzgutschrift.
 
-Im geprüften Konto war Hilfe aktiv, Partner, Experiment und
-Gelingensnachweis waren inaktiv. Ein Klick wäre reversibel, wurde wegen der
-gemeinsamen Datenbank aber nicht ausgeführt.
+Im Live-Test ließen sich bei Anton Hilfe, Partner, Experiment und
+Gelingensnachweis jeweils regulär aktivieren. Berta und Dora Kakao erhielten
+bei demselben Test HTTP 409 mit `active_stage_required`, weil für sie keine
+Etappe in Bearbeitung war. Das ist die fachliche Vorbedingung der Funktion,
+kein fehlerhaftes Kontext-Mapping.
 
 ## 6. Etappenstatus und Themen
 
@@ -116,9 +118,9 @@ unabhängig von den Meldungen:
 - **Bestanden**: bestätigte Leistungen;
 - **Gesperrt**: derzeit nicht bearbeitbare Etappen.
 
-Anton Apfels Livezustand zeigte eine bestandene und eine aktuell begonnene
-Mathe-Etappe; offene und gesperrte Etappen blieben in der geprüften Karte bei
-0. Das ist ein konkreter Musterverlauf, kein allgemeiner Zustand aller Konten.
+Anton Apfels Livezustand zeigt drei bestandene Mathe-Etappen; offene,
+aktuelle und gesperrte Etappen werden nach der Bestätigung getrennt angezeigt.
+Das ist ein konkreter Musterverlauf, kein allgemeiner Zustand aller Konten.
 
 Berta zeigt in Mathematik **1 bestandene Etappe** und einen ersten Fehlversuch
 bei einer weiteren Etappe. Eine gefüllte Kachel ist
@@ -133,8 +135,9 @@ Münzen berechnete Momentaufnahme. Eine Zeugnisprognose wird dort ausdrücklich
 noch nicht berechnet. Die Anzeige „Sammle noch ein paar bestätigte Etappen …“
 ist deshalb nicht als Prognose zu lesen.
 
-**Anzeigen und beginnen** öffnet die offene Liste. Das Beginnen wurde nicht
-ausgeführt. Themen und Etappen zeigen den Lernplan: zentrale Etappen kommen
+**Anzeigen und beginnen** öffnet die offene Liste. Die variable Etappe
+„Rechenweg erklären“ wurde von Anton begonnen und anschließend regulär
+bestätigt. Themen und Etappen zeigen den Lernplan: zentrale Etappen kommen
 aus dem gemeinsamen Curriculum, flexible aus dem Unterrichtskontext. Erst eine
 bestätigte Leistung verdient Münzen.
 
@@ -159,15 +162,16 @@ zu; variable Leistungen können ihren tatsächlichen Wert gegenüber dem Maximum
 zeigen.
 
 Mit Anton Apfel, Berta Banane und Dora Kakao lädt `/results` nach dem
-Neuaufbau jeweils mit HTTP 200. Anton zeigt 1 Mathe-Münze, Berta 1 Mathe-Münze
-und Dora Kakao 3 Deutsch-Münzen aus einer bestätigten Etappe.
+Neuaufbau jeweils mit HTTP 200. Anton zeigt 6 Gesamtmünzen und drei
+Mathe-Erfolge, darunter „Rechenweg erklären“ mit 3 von 5 Münzen. Berta zeigt
+eine bestätigte Mathe-Etappe; Dora Kakao zeigt eine bestätigte Deutsch-Etappe.
 
 ![Schatzkammer mit den im Neuaufbau bestätigten Erfolgen](images/rundgaenge/schueler/06-berta-schatzkammer-live.png)
 
 Eine berechnete Zeugnisprognose war bei den drei neu geprüften Konten wegen
-der noch kleinen Zahl bestätigter Etappen nicht verfügbar. Eine variable
-Etappe wurde als Lehrkraftbeispiel angelegt und freigegeben, aber im Lauf noch
-nicht regulär abgeschlossen; deshalb wird keine variable Gutschrift behauptet.
+der noch kleinen Zahl bestätigter Etappen nicht verfügbar. Die variable
+Etappe wurde von Anton begonnen und von der zuständigen Lehrkraft mit 3 von 5
+Münzen bestätigt; dieser Wert ist im Erfolgslogbuch sichtbar.
 
 ## 9. Abmelden, Fehler und Grenzen
 
