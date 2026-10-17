@@ -4,7 +4,7 @@ Dieser Rundgang zeigt die Schüleransicht der laufenden DEMO mit dem
 synthetischen Konto **Anton Apfel** (`anton.apfel`, Klasse 6a). Das Passwort
 wird ausschließlich aus der [verbindlichen öffentlichen
 Zugangsdaten-PDF](../Arcanum_DEMO_Zugangsdaten.pdf) übernommen und hier nicht
-wiederholt. Die Aufnahmen und Befunde stammen vom 17.10.2026, Breite 1440 px.
+wiederholt. Die Aufnahmen und Befunde stammen vom 18.10.2026, Breite 1440 px.
 
 ## 1. Anmeldung und sicher beginnen
 
@@ -24,9 +24,9 @@ Avatarwahl und das Beginnen einer Etappe können den gemeinsamen Zustand ändern
 ## 2. Dashboard lesen
 
 Oben stehen **Klasse**, **Graduierung**, **E-Mail/Benutzername**, Avatar,
-**Gesamtmünzen** und **Platz**. Im Livezustand waren die Werte `6a`,
-`Starter`, `anton.apfel`, `6 Münzen`; der Rang lautete „Platz 1/97“. Das ist
-ein Vergleich innerhalb des Jahrgangs und keine Schulnote.
+**Gesamtmünzen** und **Platz**. Die aktuelle DEMO enthält nun bewusst
+unterschiedliche Lernstände über alle acht Klassen. Der Rang ist ein Vergleich
+innerhalb des Jahrgangs und keine Schulnote.
 
 Die Graduierung beschreibt Selbstständigkeit und Verantwortung. Sie ist nicht
 das akademische Etappen-Niveau **Wanderer**, **Bergsteiger** oder
@@ -56,9 +56,11 @@ Wahlpflichtfach. Eine Fachkarte enthält Fachname, verdiente Münzen,
 Fortschritt, Abstand zur nächsten Notengrenze, **aktuellen Zwischenstand**,
 **Zeugnisprognose**, Aktionen und die vier Etappenstatus.
 
-Im Livebild standen in Antons gezeigter Karte 6 Münzen, „14 Münzen bis Note 5“
-und „Note 6 · ungenügend“. Die Anzeige sagt ausdrücklich, dass dies nur der
-bisherige Zwischenstand und noch keine Zeugnisprognose ist. Eine Prognose ist
+Im aktuellen geprüften Zustand zeigt Anton mehrere befüllte Fachkarten,
+darunter Mathematik mit 52 Münzen einschließlich der variablen 3/5-Leistung,
+Deutsch mit 48 und Englisch mit 78 Münzen. Die Anzeige sagt ausdrücklich,
+dass dies nur der bisherige Zwischenstand und noch keine Zeugnisprognose ist.
+Eine Prognose ist
 eine mögliche Entwicklung, keine eingetragene Zeugnisnote. Bei zu wenigen
 bestätigten Etappen erscheint ein Hinweis statt einer Zahl.
 
@@ -70,14 +72,26 @@ eine erfundene Etappe ersetzt werden.
 Für die folgenden Beispiele mit verdienten Leistungen melde dich mit
 **Berta Banane** (`berta.banane`) aus derselben PDF an. Dieses Konto ist ein
 anderer, ausdrücklich veröffentlichter Schülerzugang. Es zeigt im geprüften
-Livezustand 1 Gesamtmünze, Klasse 6d und die Graduierung Starter. Zusätzlich
-ist ein erster Fehlversuch einer zweiten Mathe-Etappe im Lehrkraftbereich sichtbar.
+Livezustand Mathematik 76, Englisch 60 und Deutsch 62 Münzen. Die alte
+Einzelaufnahme mit 1 Münze gehört zum Zustand vor der Population und ist kein
+aktueller Bestandswert.
 
 ![Berta Bananes gefülltes Schülerdashboard](images/rundgaenge/schueler/03-berta-dashboard-live.png)
 
-Die Karte zeigt Mathematik mit 1 bestandenen Etappe. Damit ist der
-Unterschied zwischen einem leeren Lernstand (Anton) und tatsächlich
-verdienten Leistungen (Berta) sichtbar belegt.
+Die Karte zeigt mehrere bestätigte Fachleistungen. Damit sind nun
+unterschiedliche, tatsächlich verdiente Lernstände sichtbar belegt.
+
+### Drei aktuelle Musterprofile
+
+Die folgenden Browseraufnahmen wurden nach dem Speichern erneut visuell
+geprüft:
+
+- [leistungsstark](images/rundgaenge/schueler/08-population-stark.png)
+- [mittel](images/rundgaenge/schueler/09-population-mittel.png)
+- [leistungsschwächer](images/rundgaenge/schueler/10-population-schwaecher.png)
+
+Die Aufnahmen sind Muster, keine Behauptung, dass alle Schüler dieselben
+Etappen oder Noten besitzen.
 
 ## 4. Avatar
 
@@ -118,22 +132,19 @@ unabhängig von den Meldungen:
 - **Bestanden**: bestätigte Leistungen;
 - **Gesperrt**: derzeit nicht bearbeitbare Etappen.
 
-Anton Apfels Livezustand zeigt drei bestandene Mathe-Etappen; offene,
+Anton Apfels Livezustand zeigt mehrere bestandene Fach-Etappen; offene,
 aktuelle und gesperrte Etappen werden nach der Bestätigung getrennt angezeigt.
 Das ist ein konkreter Musterverlauf, kein allgemeiner Zustand aller Konten.
 
-Berta zeigt in Mathematik **1 bestandene Etappe** und einen ersten Fehlversuch
-bei einer weiteren Etappe. Eine gefüllte Kachel ist
+Berta zeigt in mehreren Fächern bestandene Etappen. Eine gefüllte Kachel ist
 damit ein echter Nachweis für den jeweils sichtbaren Zustand, aber kein Beleg,
 dass jedes Konto dieselben Etappen besitzt.
 
 ![Mathematik-Karte mit Zwischenstand, 1 verdienter Münze und bestandener Etappe](images/rundgaenge/schueler/04-berta-mathematik-live.png)
 
-In Bertas Mathematik-Karte steht der aktuelle Zwischenstand „Note 6 ·
-ungenügend“ und „19 Münzen bis Note 5“. Das ist eine aus bisher verdienten
-Münzen berechnete Momentaufnahme. Eine Zeugnisprognose wird dort ausdrücklich
-noch nicht berechnet. Die Anzeige „Sammle noch ein paar bestätigte Etappen …“
-ist deshalb nicht als Prognose zu lesen.
+In Bertas Mathematik-Karte steht ein aus den aktuell verdienten Münzen
+berechneter Zwischenstand. Eine Zeugnisprognose ist davon unabhängig und wird
+nur bei erfüllten fachlichen Voraussetzungen angezeigt.
 
 **Anzeigen und beginnen** öffnet die offene Liste. Die variable Etappe
 „Rechenweg erklären“ wurde von Anton begonnen und anschließend regulär
@@ -161,10 +172,10 @@ das Erfolgslogbuch erscheinen. Das Logbuch ordnet Münzen bestätigten Etappen
 zu; variable Leistungen können ihren tatsächlichen Wert gegenüber dem Maximum
 zeigen.
 
-Mit Anton Apfel, Berta Banane und Dora Kakao lädt `/results` nach dem
-Neuaufbau jeweils mit HTTP 200. Anton zeigt 6 Gesamtmünzen und drei
-Mathe-Erfolge, darunter „Rechenweg erklären“ mit 3 von 5 Münzen. Berta zeigt
-eine bestätigte Mathe-Etappe; Dora Kakao zeigt eine bestätigte Deutsch-Etappe.
+Mit Anton Apfel, Berta Banane und Dora Kakao lädt `/results` nach der
+Population jeweils mit HTTP 200. Anton zeigt die variable Leistung „Rechenweg
+erklären“ weiterhin mit 3 von 5 Münzen. Berta zeigt mehrere Fachleistungen;
+Dora Kakao weiterhin ihre bestätigten Deutschleistungen.
 
 ![Schatzkammer mit den im Neuaufbau bestätigten Erfolgen](images/rundgaenge/schueler/06-berta-schatzkammer-live.png)
 

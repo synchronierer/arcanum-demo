@@ -3,7 +3,7 @@
 Verwende für den vollständigen Tutor-Rundgang **Dora Dinkel**
 (`dora.dinkel`) aus der [öffentlichen Zugangsdaten-PDF](../Arcanum_DEMO_Zugangsdaten.pdf).
 Das Passwort wird nicht wiederholt. Dora ist der empfohlene Tutorzugang für
-Klasse 6d. Die Live-Aufnahmen und Befunde wurden am 17.10.2026 mit 1440 px erstellt; die
+Klasse 6d. Die Live-Aufnahmen und Befunde wurden am 18.10.2026 mit 1440 px erstellt; die
 Namen in den Tabellen sind synthetische DEMO-Namen.
 
 ## 1. Anmeldung und Navigation
@@ -117,7 +117,8 @@ enthalten und darf nur sicher gespeichert oder geteilt werden.
 ![Tutorübersicht mit Fachmünzen, Noten und Verlaufsschaltflächen](images/rundgaenge/lehrkraft/08-tutorverlauf-live.png)
 
 Die gefüllten Zeilen belegen Fachstände: Berta Banane steht nach dem Reset im
-Mathematikfach mit 1 Münze. Dieser Wert stimmt mit Bertas Schüler-Schatzkammer
+Mathematikfach mit dem aktuellen, aus mehreren bestätigten Leistungen
+berechneten Münzstand. Der Wert stimmt mit Bertas Schüler-Schatzkammer
 überein; er ist ein lesender Abgleich der regulär bestätigten Etappe.
 
 Eine Fachlehrkraft sieht ihren Fachkontext und die zugeordneten Schüler. Die

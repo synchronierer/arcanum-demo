@@ -1,6 +1,6 @@
 # Interne Screenshot-Abnahme
 
-Stand: 17.10.2026. Die vorhandenen Aufnahmen stammen aus frischen
+Stand: 18.10.2026. Die vorhandenen Aufnahmen stammen aus frischen
 Browser-Sitzung gegen die laufende DEMO. Die erste Prüfung erfolgte unmittelbar
 im Browser nach der Navigation; die zweite Prüfung erfolgte durch erneutes
 visuelles Öffnen der gespeicherten PNGs. Für die zweite Sichtprüfung wurden
@@ -11,10 +11,10 @@ Beschriftung, Zustand, Ausschnitt und Überlauf verglichen.
 
 | Rolle | PNGs | Browserprüfung | PNG-Sichtprüfung | Ersetzt | Nicht akzeptiert |
 |---|---:|---|---|---:|---:|
-| Schüler | 8 | PASS für gezeigte Zustände; `/results` für drei Konten HTTP 200 | PASS für die aktualisierten Anton-/Berta-Bilder | 6 | 0 |
+| Schüler | 11 | PASS für gezeigte Zustände; `/results` für drei Konten HTTP 200 | PASS für die drei neuen Populationsbilder | 3 | 0 |
 | Lehrkraft | 8 | PASS für Cockpit/Fortschritt/Detail; Verlauf FAILED | PASS | 0 | 0 |
 | Administration | 10 | PASS für Lesesichten; Rollen-/Moduldetails NI-SA | PASS | 0 | 0 |
-| Gesamt | 25 | nicht pauschal PASS: einzelne Funktionen FAILED/NI-SA | PASS | 0 | 0 |
+| Gesamt | 28 | nicht pauschal PASS: einzelne Funktionen FAILED/NI-SA | PASS | 3 | 0 |
 
 Die Bilder zeigen ausschließlich veröffentlichte synthetische DEMO-Namen,
 keine ausgefüllten Passwortfelder, Sitzungs- oder Zugriffstokens, echten
@@ -29,7 +29,7 @@ Anton-Apfel-Livezustand beschrieben, nicht als allgemeiner Systemzustand.
 - `00-anmeldung-live.png`: `/login`, 1440 px; leere Anmeldemaske ohne
   eingetragenes Passwort.
 - `01-dashboard-live.png`: Anton Apfel, `/dashboard`, 1440 px; Profil,
-  Notengrenzen, 6 Münzen und aktueller Mathe-Fortschritt sichtbar.
+  Notengrenzen und Fachfortschritt sichtbar.
 - `02-avatar-dialog-live.png`: Anton Apfel, geöffneter Avatar-Dialog;
   Auswahlfunktion sichtbar, keine Auswahl gespeichert.
 - `03-berta-dashboard-live.png`: Berta Banane, aktuelles Mathematikangebot
@@ -37,10 +37,16 @@ Anton-Apfel-Livezustand beschrieben, nicht als allgemeiner Systemzustand.
 - `04-berta-mathematik-live.png`: Mathematik mit bestätigter Etappe,
   Fehlversuch und fachlicher Notengrenze.
 - `05-berta-wpf-live.png`: WPF-Angebot ohne neue Leistung im Semester-Neuaufbau.
-- `06-berta-schatzkammer-live.png`: aktuelle Ergebnisse mit einer bestätigten
-  Mathe-Leistung und 1 Münze.
-- `07-anton-schatzkammer-final.png`: Anton Apfel, `/results`, 6 Gesamtmünzen;
+- `06-berta-schatzkammer-live.png`: historische Aufnahme vor der Population;
+  nicht als aktueller Bestandswert verwenden.
+- `07-anton-schatzkammer-final.png`: Anton Apfel, `/results`;
   der variable Eintrag „3 von 5 Münzen“ ist im Mathe-Erfolgslogbuch sichtbar.
+- `08-population-stark.png`: aktuelles starkes synthetisches Musterprofil mit
+  mehreren befüllten Fachkarten.
+- `09-population-mittel.png`: aktuelles mittleres synthetisches Musterprofil
+  mit unterschiedlichen Fachnoten.
+- `10-population-schwaecher.png`: aktuelles schwächeres synthetisches
+  Musterprofil mit bestätigten Leistungen und offenem Fach.
 
 ### Lehrkraft
 

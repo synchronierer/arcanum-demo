@@ -1,6 +1,6 @@
 # Internes Funktionsinventar – DEMO-Rundgänge
 
-Stand: 17.10.2026, unabhängige Zweitabnahme, Live-URL
+Stand: 18.10.2026, unabhängige Zweitabnahme, Live-URL
 `https://arcanum-demo.dynv6.net/login`, Browserbreite 1440 px. Passwörter,
 Sitzungen und geheime Serverinformationen gehören nicht in diesen Nachweis.
 
@@ -13,8 +13,8 @@ abweichende Anzeige wird nicht mit der Schülerverwaltung gleichgesetzt.
 
 | Rolle | Konto | Gezeigte Zustände | Anmeldung |
 |---|---|---|---|
-| Schüler | `anton.apfel` | 6 Münzen, drei Mathe-Erfolge einschließlich variabler 3/5-Leistung, Signale | PASS |
-| Schüler | `berta.banane` | 1 Mathe-Münze, eine bestandene Etappe, erster Fehlversuch | PASS |
+| Schüler | `anton.apfel` | mehrere Fächer; variable 3/5-Leistung erhalten; `/results` HTTP 200 | PASS |
+| Schüler | `berta.banane` | Mathematik 76, Englisch 60, Deutsch 62 Münzen | PASS |
 | Schüler | `dora.kakao` | eine bestätigte Deutsch-Etappe, `/results` HTTP 200 | PASS |
 | Lehrkraft/Tutor | `dora.dinkel` | Cockpit, 2 Kontexte, Curriculum, gefüllter Fortschritt/GN, Tutor 6d | PASS |
 | Administration | `ada.ananas` | Dashboard, Schuldaten, Schuljahr, Curriculum, Attendance, Rechte, Module | PASS |
@@ -27,20 +27,23 @@ Browser beobachtet. Ein sichtbarer Button ohne Ausführung ist kein PASS.
 | Nr. | Rolle/Konto | Seite / Unteransicht | Bedienelement oder Zustand | Tatsächlich beobachtet | Screenshot | Doku | Status |
 |---:|---|---|---|---|---|---|---|
 | S01 | Schüler / Anton | `/login` | Loginfelder und Anmeldung | Dashboard geladen | `schueler/00-anmeldung-live.png` | Schüler §1 | PASS |
-| S02 | Schüler / Anton | `/dashboard` | Profil, Klasse, Graduierung | 6a, Starter, 6 Münzen, Kennung sichtbar | `schueler/01-dashboard-live.png` | Schüler §2 | PASS |
+| S02 | Schüler / Anton | `/dashboard` | Profil, Klasse, Graduierung | 6a, Starter, befüllte Fachkarten, Kennung sichtbar | `schueler/01-dashboard-live.png` | Schüler §2 | PASS |
 | S03 | Schüler / Anton | Fachkarten | Notengrenzen/Zwischenstand | Grenzen und Note 6 sichtbar | `schueler/01-dashboard-live.png` | Schüler §2–3 | PASS |
 | S04 | Schüler / Anton | Fachkarte | Avatar bearbeiten | Dialog geöffnet, nicht gespeichert | `schueler/02-avatar-dialog-live.png` | Schüler §4 | PASS |
 | S05 | Schüler / Anton | Fachkarte | Hilfe/Partner/Experiment/GN | alle vier Meldungen regulär aktiviert und wieder ausgeräumt | `schueler/01-dashboard-live.png` | Schüler §5 | PASS |
-| S06 | Schüler / Anton | Fachkarte | Offen/Aktuell/Bestanden/Gesperrt | drei bestandene Mathe-Etappen nach regulärem Neubau | `schueler/01-dashboard-live.png` | Schüler §6 | PASS |
-| S07 | Schüler / Berta | `/dashboard` | Gesamtmünzen/Rang | 1 Münze, Klasse 6d | `schueler/03-berta-dashboard-live.png` | Schüler §3 | PASS |
-| S08 | Schüler / Berta | Mathematik-Karte | verdiente Münzen | 1 Münze, 1 bestanden, 1 Fehlversuch | `schueler/04-berta-mathematik-live.png` | Schüler §6 | PASS |
-| S09 | Schüler / Berta | Mathematik-Karte | Zwischenstand/Notengrenze | Note 6, 19 bis Note 5 | `schueler/04-berta-mathematik-live.png` | Schüler §6 | PASS |
+| S06 | Schüler / Anton | Fachkarte | Offen/Aktuell/Bestanden/Gesperrt | mehrere bestandene Fach-Etappen nach regulärem Neubau | `schueler/01-dashboard-live.png` | Schüler §6 | PASS |
+| S07 | Schüler / Berta | `/dashboard` | Gesamtmünzen/Rang | Klasse 6d, mehrere befüllte Fächer | `schueler/09-population-mittel.png` | Schüler §3 | PASS |
+| S08 | Schüler / Berta | Fachkarten | verdiente Münzen | Mathematik, Englisch und Deutsch befüllt | `schueler/09-population-mittel.png` | Schüler §6 | PASS |
+| S09 | Schüler / Musterprofil | Fachkarten | Zwischenstand/Notengrenze | starkes, mittleres und schwächeres Profil sichtbar | `schueler/08-population-stark.png` | Schüler §6 | PASS |
 | S10 | Schüler / Berta | WPF-Karte | individuelles Fach | WPF-Angebot sichtbar, keine neue Leistung im Neuaufbau | `schueler/05-berta-wpf-live.png` | Schüler §7 | PASS |
-| S11 | Schüler / Berta | `/results` Mathematik | Erfolgslogbuch | 1 Münze, zentrale Etappe sichtbar | `schueler/06-berta-schatzkammer-live.png` | Schüler §8 | PASS |
+| S11 | Schüler / Berta | `/results` Mathematik | Erfolgslogbuch | mehrere zentrale Leistungen sichtbar | `schueler/09-population-mittel.png` | Schüler §8 | PASS |
 | S12 | Schüler / Dora Kakao | `/results` Deutsch | Etappe, Thema, Wert | zentrale Deutsch-Etappe, +3 sichtbar | — | Schüler §8 | PASS |
-| S13 | Schüler / Anton | `/results` | Fortschritzdaten laden | HTTP 200, 6 Gesamtmünzen, flexible 3/5 sichtbar | `schueler/07-anton-schatzkammer-final.png` | Schüler §8 | PASS |
+| S13 | Schüler / Anton | `/results` | Fortschritzdaten laden | HTTP 200, mehrere Fachleistungen, flexible 3/5 sichtbar | `schueler/07-anton-schatzkammer-final.png` | Schüler §8 | PASS |
 | S14 | Schüler / Dora Kakao | `/results` | Fortschritzdaten laden | HTTP 200, Deutsch-Erfolg sichtbar | — | Schüler §8 | PASS |
 | S15 | Schüler / öffentliche Konten | Fachkarten | Zeugnisprognose | bei wenigen Etappen noch nicht berechenbar | — | Schüler §6/8 | OPEN |
+| S16 | Schüler / Musterprofil stark | `/results` | umfangreicher Lernstand | mehrere Fachkarten, Logbuch und Noten sichtbar | `schueler/08-population-stark.png` | Schüler §3/8 | PASS |
+| S17 | Schüler / Musterprofil mittel | `/results` | differenzierter Lernstand | mehrere Fachkarten mit unterschiedlichen Noten | `schueler/09-population-mittel.png` | Schüler §3/8 | PASS |
+| S18 | Schüler / Musterprofil schwächer | `/results` | differenzierter Lernstand | bestätigte Leistungen und offenes Fach sichtbar | `schueler/10-population-schwaecher.png` | Schüler §3/8 | PASS |
 | L01 | Lehrkraft / Dora | Cockpit | Halbjahr/Kontexte | 2026_27_HJ1, 6d GL/Mathematik | `lehrkraft/01-cockpit-live.png` | Lehrkraft §1–2 | PASS |
 | L02 | Lehrkraft / Dora | Curriculum | zentrale/flexible Themen | 63+20, Rahmen 100, Grenze 105 | `lehrkraft/02-themen-etappen-live.png` | Lehrkraft §3 | PASS |
 | L03 | Lehrkraft / Dora | Schülerfortschritt | Kontext laden | mehrere Schüler und Signale | `lehrkraft/03-schuelerfortschritt-live.png` | Lehrkraft §4 | PASS |
